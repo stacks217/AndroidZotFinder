@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/holo_dark"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+    
+    <!-- Footer -->
+    <include
+        android:id="@+id/footer"
+        layout="@layout/commonfooter" /> 
+
+    <!-- This is the button for formatting and Toggling -->
+    <Button 
+       android:id="@+id/transparent_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:background="@drawable/map_icon_pressed"
+       android:alpha="0"
+       android:textColor="@color/white"
+       android:textSize="@dimen/button_text_size"
+       android:onClick="goToMap" />
+	        
+    
+    
+    
+    <ScrollView 
+		    android:id="@+id/ScrollLayout"
+		    android:layout_below="@+id/tableRow1"
+		    android:layout_width="wrap_content"
+	  		android:layout_height="match_parent"
+	  		android:layout_marginTop="15dp"
+	  		android:layout_above="@+id/transparent_button">
+			
+			<RelativeLayout 
+			    android:id="@+id/R3Layout"
+			    android:layout_width="wrap_content"
+	  			android:layout_height="wrap_content">
+	  			
+			    <!-- Office Location -->
+			    <TextView
+					android:id="@+id/officeHeader"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/office_header"
+					android:textSize="@dimen/font_size"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textColor="@color/white"
+					android:background="@color/header_color_blue"/>
+			    <ImageButton 
+		            android:id="@+id/locateButton"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:layout_alignRight="@+id/officeHeader"
+					android:layout_marginLeft="2dp"
+					android:layout_marginTop="2dp"
+					android:layout_marginBottom="3dp"
+					android:padding="1dp"
+			        android:textSize="12sp"
+			        android:textStyle="bold"
+			        android:background="@android:color/transparent"
+			        android:src="@drawable/ic_action_locate"
+			        android:clickable="true"
+			        android:onClick="plotPoint"
+	                />
+	        
+				<TextView
+					android:id="@+id/officeLocation"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/officeHeader"
+					android:layout_marginBottom="20dp"
+					android:textSize="@dimen/font_size"
+					android:textColor="@color/white"
+					android:clickable="true"
+					android:onClick="plotPoint"
+					
+			       />
+				
+				<!-- Phone Number -->
+				
+				<TextView
+					android:id="@+id/phoneHeader"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/officeLocation"
+					android:text="@string/phone_header"
+					android:textSize="@dimen/font_size"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textColor="@color/white"
+					android:background="@color/header_color_blue"/>
+				
+				 <ImageButton 
+		            android:id="@+id/callButton"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:layout_below="@+id/officeLocation"
+		        	android:layout_alignRight="@+id/phoneHeader"
+					android:layout_marginLeft="2dp"
+					android:layout_marginTop="2dp"
+					android:layout_marginBottom="3dp"
+					android:padding="1dp"
+			        android:textSize="12sp"
+			        android:textStyle="bold"
+			        android:background="@android:color/transparent"
+			        android:src="@drawable/ic_action_call"
+			        android:clickable="true"
+			        android:onClick="call"
+	                />
+				
+				<TextView
+					android:id="@+id/phoneNumber"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/phoneHeader"
+					android:layout_marginBottom="20dp"
+					android:textSize="@dimen/font_size"
+					android:textColor="@color/white"
+					android:clickable="true"
+					android:onClick="call"
+					/>
+				
+				<!-- Email -->
+				<TextView
+					android:id="@+id/emailHeader"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/phoneNumber"
+					android:text="@string/email_header"
+					android:textSize="@dimen/font_size"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:textColor="@color/white"
+					android:background="@color/header_color_blue"/>
+				
+				 <ImageButton 
+		            android:id="@+id/emailButton"
+		        	android:layout_width="wrap_content"
+		        	android:layout_height="wrap_content"
+		        	android:layout_below="@+id/phoneNumber"
+		        	android:layout_alignRight="@+id/emailHeader"
+					android:layout_marginLeft="2dp"
+					android:layout_marginTop="2dp"
+					android:layout_marginBottom="3dp"
+					android:padding="1dp"
+			        android:textSize="12sp"
+			        android:textStyle="bold"
+			        android:background="@android:color/transparent"
+			        android:src="@drawable/ic_action_email"
+			        android:clickable="true"
+			        android:onClick="sendEmail"
+	                />
+				
+				<TextView
+					android:id="@+id/email"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/emailHeader"
+					android:layout_marginBottom="20dp"
+					android:textSize="@dimen/font_size"
+					android:textColor="@color/white"
+					android:clickable="true"
+					android:onClick="sendEmail"/>
+				
+			</RelativeLayout>
+	    
+	</ScrollView>
+	
+    
+</RelativeLayout>

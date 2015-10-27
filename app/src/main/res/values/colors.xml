@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="holo_dark">#ff000000</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="radiant_white">#FFFFF0</color>
+    <color name="header_color_blue">#002E3E</color>
+    <color name="red">#B22222</color>
+    <color name="radiant_red">#8B0000</color>
+    <color name="light_red">#CD5C5C</color>
+    <color name="hyperlink">#00F0FF</color>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!-- This is the button for formatting and Toggling -->
+	<Button 
+	   android:id="@+id/transparent_button"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:layout_alignParentBottom="true"
+	   android:background="@drawable/map_icon_pressed"
+	   android:alpha="0"
+	   android:textColor="@color/white"
+	   android:textSize="@dimen/button_text_size" />
+    <!-- Footer -->
+    <include
+        android:id="@+id/footer"
+        layout="@layout/commonfooter" /> 
+        
+     <ScrollView 
+	    android:id="@+id/ScrollLayout"
+	    android:layout_width="fill_parent"
+  		android:layout_height="match_parent"
+  		android:layout_above="@+id/transparent_button">
+  		<RelativeLayout
+  		    android:id="@+id/relativeLayout"
+  		    android:layout_width="fill_parent"
+  		    android:layout_height="wrap_content">
+
+  		    <TextView
+		        android:id="@+id/Version"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/about_us_version"
+		        android:textSize="18sp"
+		        android:layout_centerHorizontal="true"
+		        android:gravity="center"
+		        android:layout_marginBottom="10dp"
+		        android:layout_marginTop="10dp"/>
+  		    
+			<TextView
+		        android:id="@+id/Sponsors"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/about_us_sponsors"
+		        android:textSize="18sp"
+		        android:gravity="left"
+		        android:layout_marginLeft="10dp"
+		        android:layout_below="@+id/Version"/>
+			
+		 	<TextView
+		        android:id="@+id/AndroidTeam"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/about_us_team_2x2"
+		        android:textSize="18sp"
+		        android:layout_centerHorizontal="true"
+		        android:gravity="center"
+		        android:layout_marginTop="20dp"
+		        android:layout_below="@+id/Sponsors"/>
+		 	
+		 	<TextView
+		        android:id="@+id/questions_concerns"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/about_us_questions"
+		        android:textSize="18sp"
+		        android:layout_centerHorizontal="true"
+		        android:gravity="center"
+		        android:layout_marginTop="20dp"
+		        android:layout_below="@+id/AndroidTeam"/>
+		 	
+		 	<TextView
+		        android:id="@+id/GeneralInquiries"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/about_us_general_inquries"
+		        android:textSize="18sp"
+		        android:textColor="@color/hyperlink"
+		        android:layout_centerHorizontal="true"
+		        android:gravity="center"
+		        android:layout_marginTop="10dp"
+		        android:layout_below="@+id/questions_concerns"
+		        android:clickable="true"
+		        android:onClick="emailGeneralInquiry"/>
+		 	
+		 	<TextView
+		        android:id="@+id/BugReport"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/about_us_bug_report"
+		        android:textSize="18sp"
+		        android:textColor="@color/hyperlink"
+		       	android:layout_centerHorizontal="true"
+		        android:gravity="center"
+		        android:layout_marginTop="20dp"
+		        android:layout_below="@+id/GeneralInquiries"
+		        android:clickable="true"
+		        android:onClick="emailBugReport"/>
+  		</RelativeLayout>
+	  			
+
+	</ScrollView>
+</RelativeLayout>

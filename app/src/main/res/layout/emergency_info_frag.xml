@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/R1Layout"
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content" 
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- This is the button for formatting and Toggling -->
+	<Button 
+	   android:id="@+id/transparent_button"
+	   android:layout_width="wrap_content"
+	   android:layout_height="wrap_content"
+	   android:layout_alignParentBottom="true"
+	   android:background="@drawable/map_icon_pressed"
+	   android:alpha="0"
+	   android:textColor="@color/white"
+	   android:textSize="@dimen/button_text_size" />
+		   	    
+    <!-- Footer -->
+    <include
+        android:id="@+id/footer"
+        layout="@layout/commonfooter" />  	    
+    
+    
+    <!-- Top Half of layout -->
+    <RelativeLayout
+	    android:id="@+id/R2Layout"
+	  	android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content" >
+	  	
+  
+	
+    
+<!-- Top 5 Emergencies --> 
+	<TextView
+		android:id="@+id/mostCommonEmergencyTextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:layout_centerHorizontal="true"
+		android:text="@string/top_emergencies"
+		android:textSize="@dimen/font_size"
+		android:layout_marginBottom="15dp"
+		android:layout_marginTop="15dp"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@color/white"
+		 />
+  
+  	<!-- Active Shooter -->
+	<Button
+        android:id="@+id/topActiveShooterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+		android:layout_below="@+id/mostCommonEmergencyTextView"
+        android:background="@drawable/active_shooter_top" 
+        android:onClick="viewInfo" /> 
+        
+	<TextView
+		android:id="@+id/topActiveShooterText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/topActiveShooterButton"
+		android:layout_alignRight="@+id/topActiveShooterButton"
+		android:gravity="center"
+		android:text="@string/active_shooter"
+		android:layout_below="@+id/topActiveShooterButton"
+		android:textSize="@dimen/button_text_size"
+		android:layout_marginTop="5dp"		
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@color/white" 
+		android:onClick="viewInfo"/>
+	        
+    <!-- Earthquake -->
+	<Button
+        android:id="@+id/topEarthquakeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_below="@+id/mostCommonEmergencyTextView"
+		android:layout_toLeftOf="@+id/topEmergencyPreparednessButton"
+		android:layout_marginRight="8dp"
+        android:background="@drawable/earthquake_top"
+        android:onClick="viewInfo"  /> 
+        
+	<TextView
+		android:id="@+id/topEarthquakeText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/topEarthquakeButton"
+		android:layout_alignRight="@+id/topEarthquakeButton"
+		android:gravity="center"
+		android:text="@string/earthquake"
+		android:layout_below="@+id/topEarthquakeButton"
+		android:textSize="@dimen/button_text_size"
+		android:layout_marginTop="5dp"
+		android:layout_marginLeft="1dp"		
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@color/white"
+		android:onClick="viewInfo" />
+	
+	<!-- Emergency Preparedness -->
+	<Button
+        android:id="@+id/topEmergencyPreparednessButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@+id/mostCommonEmergencyTextView"
+        android:background="@drawable/emergency_preparedness_top"
+        android:onClick="viewInfo" /> 
+	
+	<TextView
+		android:id="@+id/topEmergencyPreparednessText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/topEmergencyPreparednessButton"
+		android:layout_alignRight="@+id/topEmergencyPreparednessButton"
+		android:gravity="center"
+		android:text="@string/emergency_preparedness"
+		android:layout_below="@+id/topEmergencyPreparednessButton"
+		android:textSize="@dimen/button_text_size"
+		android:layout_marginTop="5dp"		
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@color/white"
+		android:onClick="viewInfo" />
+	
+	<!-- Fire -->
+	<Button
+        android:id="@+id/topFireButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_below="@+id/mostCommonEmergencyTextView"
+		android:layout_toLeftOf="@+id/topPersonsInDistressButton"
+		android:layout_marginRight="8dp"
+        android:background="@drawable/fire_top"
+        android:onClick="viewInfo"  /> 
+	
+	<TextView
+		android:id="@+id/topFireText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/topFireButton"
+		android:layout_alignRight="@+id/topFireButton"
+		android:gravity="center"
+		android:text="@string/fire"
+		android:layout_below="@+id/topFireButton"
+		android:textSize="@dimen/button_text_size"
+		android:layout_marginTop="5dp"		
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@color/white"
+		android:onClick="viewInfo" />
+	
+	<!-- Persons in Distress-->
+	<Button
+        android:id="@+id/topPersonsInDistressButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+		android:layout_below="@+id/mostCommonEmergencyTextView"
+        android:background="@drawable/persons_in_distress_top"
+        android:onClick="viewInfo"
+	        /> 
+	<TextView
+		android:id="@+id/topPersonsInDistressText"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignLeft="@+id/topPersonsInDistressButton"
+		android:layout_alignRight="@+id/topPersonsInDistressButton"
+		android:gravity="center"
+		android:text="@string/persons_in_distress"
+		android:layout_below="@+id/topPersonsInDistressButton"
+		android:textSize="@dimen/button_text_size"
+		android:layout_marginTop="5dp"			
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@color/white" 
+		android:onClick="viewInfo"/>
+	
+	<!-- Gray Bar -->
+	<View
+	    android:id="@+id/greyLine"
+ 		android:layout_width="match_parent"
+ 		android:layout_height="1dp"
+ 		android:layout_below="@+id/topActiveShooterText"
+ 		android:layout_marginTop="15dp"
+ 		android:background="@android:color/darker_gray" />
+	
+	<!-- All Emergencies -->
+	<TextView
+		android:id="@+id/otherEmergencyInfoTextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:text="@string/other_emergencies"
+		android:layout_below="@+id/greyLine"
+		android:textSize="@dimen/font_size"
+		android:layout_marginTop="15dp"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textColor="@color/white" />
+
+	</RelativeLayout>
+
+	<ScrollView 
+	    android:id="@+id/ScrollLayout"
+	    android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_marginTop="15dp"
+  		android:layout_below="@+id/R2Layout"
+  		android:layout_above="@+id/transparent_button">
+		
+		<RelativeLayout 
+		    android:id="@+id/R3Layout"
+		    android:layout_width="fill_parent"
+  			android:layout_height="wrap_content">
+		
+		    <!-- Active Shooter -->
+			<Button
+		        android:id="@+id/activeShooterButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+				android:layout_marginLeft="18dp"
+		        android:background="@drawable/active_shooter"
+		        android:onClick="viewInfo" /> 
+		        
+			<TextView
+				android:id="@+id/activeShooterText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/activeShooterButton"
+				android:layout_alignRight="@+id/activeShooterButton"
+				android:gravity="center_horizontal"
+				android:text="@string/active_shooter"
+				android:layout_below="@+id/activeShooterButton"
+				android:textSize="@dimen/button_text_size"
+				android:layout_marginTop="5dp"		
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/white" 
+				android:onClick="viewInfo"/>
+				    
+			<!--  Bomb Threat -->
+			<Button
+		        android:id="@+id/bombThreatButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerHorizontal="true"
+		        android:background="@drawable/bomb_threat"
+		        android:onClick="viewInfo" /> 
+		        
+			<TextView
+				android:id="@+id/bombThreatText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/bombThreatButton"
+				android:layout_alignRight="@+id/bombThreatButton"
+				android:gravity="center"
+				android:text="@string/bomb_threat"
+				android:layout_below="@+id/bombThreatButton"
+				android:textSize="@dimen/button_text_size"
+				android:layout_marginTop="5dp"		
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/white"
+				android:onClick="viewInfo" />
+			 
+			 <!-- Earthquake -->
+			<Button
+		        android:id="@+id/earthquakeButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:layout_marginRight="18dp"
+		        android:background="@drawable/earthquake"
+		        android:onClick="viewInfo"  /> 
+		        
+			<TextView
+				android:id="@+id/earthquakeText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/earthquakeButton"
+				android:layout_alignRight="@+id/earthquakeButton"
+				android:gravity="center"
+				android:text="@string/earthquake"
+				android:layout_below="@+id/earthquakeButton"
+				android:textSize="@dimen/button_text_size"
+				android:layout_marginTop="5dp"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/white"
+				android:onClick="viewInfo" />
+			
+			<!-- Emergency Preparedness -->
+			<Button
+		        android:id="@+id/emergencyPreparednessButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+				android:layout_below="@+id/activeShooterText"
+				android:layout_alignLeft="@+id/activeShooterButton"
+				android:layout_marginTop="10dp"
+		        android:background="@drawable/emergency_preparedness"
+		        android:onClick="viewInfo" /> 
+			
+			<TextView
+				android:id="@+id/emergencyPreparednessText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/emergencyPreparednessButton"
+				android:layout_alignRight="@+id/emergencyPreparednessButton"
+				android:gravity="center"
+				android:text="@string/emergency_preparedness"
+				android:layout_below="@+id/emergencyPreparednessButton"
+				android:textSize="@dimen/button_text_size"
+				android:layout_marginTop="5dp"		
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/white"
+				android:onClick="viewInfo" />
+			
+			<!-- Evacuation -->	
+			<Button
+		        android:id="@+id/evacuationButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/bombThreatText"
+			    android:layout_centerHorizontal="true"
+				android:layout_marginTop="10dp"
+				android:background="@drawable/evacuation"
+		        android:onClick="viewInfo" />
+			
+			<TextView
+				android:id="@+id/evacuationText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/evacuationButton"
+				android:layout_alignRight="@+id/evacuationButton"
+				android:gravity="center"
+				android:text="@string/evacuation"
+				android:layout_below="@+id/evacuationButton"
+				android:lines="2"
+				android:textSize="@dimen/button_text_size"
+				android:layout_marginTop="5dp"		
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/white"
+				android:onClick="viewInfo" />
+			
+			<!-- Evacuation Disabilities -->
+			<Button
+			    android:id="@+id/evacuationDisabilitiesButton"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_alignTop="@+id/evacuationButton"
+				android:layout_alignRight="@+id/earthquakeButton"
+			    android:background="@drawable/evacuation_disabilities"
+			    android:onClick="viewInfo" />
+			<TextView
+				android:id="@+id/evacuationDisabilitiesText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/evacuationDisabilitiesButton"
+				android:layout_alignRight="@+id/evacuationDisabilitiesButton"
+				android:gravity="center"
+				android:text="@string/evacuation_disabilities"
+				android:layout_below="@+id/evacuationDisabilitiesButton"
+				android:textSize="@dimen/button_text_size"
+				android:layout_marginTop="5dp"		
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/white"
+				android:onClick="viewInfo" />
+			
+			<!-- Fire -->
+			<Button
+		        android:id="@+id/fireButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/emergencyPreparednessText"
+		        android:layout_alignLeft="@+id/emergencyPreparednessButton"
+		        android:layout_marginTop="10dp"
+		        android:background="@drawable/fire"
+		        android:onClick="viewInfo"  /> 
+			
+			<TextView
+				android:id="@+id/fireText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/fireButton"
+				android:layout_alignRight="@+id/fireButton"
+				android:gravity="center"
+				android:text="@string/fire"
+				android:layout_below="@+id/fireButton"
+				android:textSize="@dimen/button_text_size"
+				android:layout_marginTop="5dp"		
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/white"
+				android:onClick="viewInfo" />
+			
+			<!-- Hazardous Material -->	        
+			<Button
+		        android:id="@+id/hazardousMaterialButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+				android:layout_below="@+id/evacuationText"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="10dp"
+		        android:background="@drawable/hazardous_material"
+		        android:onClick="viewInfo" />
+			
+			<TextView
+				android:id="@+id/hazardousMaterialText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/hazardousMaterialButton"
+				android:layout_alignRight="@+id/hazardousMaterialButton"
+				android:gravity="center"
+				android:text="@string/hazardous_material"
+				android:layout_below="@+id/hazardousMaterialButton"
+				android:textSize="@dimen/button_text_size"
+				android:layout_marginTop="5dp"		
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/white"
+				android:onClick="viewInfo" /> 
+			
+			
+			<!-- Hazardous Material Shelter -->
+			<Button
+		        android:id="@+id/hazardousMaterialShelterButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+				android:layout_below="@+id/evacuationDisabilitiesText"
+				android:layout_marginTop="10dp"
+				android:layout_alignRight="@+id/evacuationDisabilitiesButton"
+				android:background="@drawable/hazardous_material_shelter"
+		        android:onClick="viewInfo" /> 
+		        
+			<TextView
+				android:id="@+id/hazardousMaterialShelterText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/hazardousMaterialShelterButton"
+				android:layout_alignRight="@+id/hazardousMaterialShelterButton"
+				android:gravity="center"
+				android:text="@string/hazardous_material_shelter"
+				android:layout_below="@+id/hazardousMaterialShelterButton"
+				android:textSize="@dimen/button_text_size"
+				android:layout_marginTop="5dp"		
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/white"
+				android:onClick="viewInfo" />
+			
+			
+			<!-- Medical Emergency -->
+			<Button
+		        android:id="@+id/medicalEmergencyButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+				android:layout_alignTop="@+id/suspiciousPackageButton"
+				android:layout_alignLeft="@+id/fireButton"
+				android:background="@drawable/medical_emergency"
+		        android:onClick="viewInfo" />
+			
+			<TextView
+				android:id="@+id/medicalEmergencyText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/medicalEmergencyButton"
+				android:layout_alignRight="@+id/medicalEmergencyButton"
+				android:gravity="center"
+				android:text="@string/medical_emergency"
+				android:layout_below="@+id/medicalEmergencyButton"
+				android:textSize="@dimen/button_text_size"
+				android:layout_marginTop="5dp"		
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/white" 
+				android:onClick="viewInfo"/>
+			     
+			<!-- Persons in Distress-->
+			<Button
+		        android:id="@+id/personsInDistressButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+				android:layout_alignTop="@+id/suspiciousPackageButton"
+				android:layout_centerHorizontal="true"
+		        android:background="@drawable/persons_in_distress"
+		        android:onClick="viewInfo"
+			        /> 
+			<TextView
+				android:id="@+id/personsInDistressText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/personsInDistressButton"
+				android:layout_alignRight="@+id/personsInDistressButton"
+				android:gravity="center"
+				android:text="@string/persons_in_distress"
+				android:layout_below="@+id/personsInDistressButton"
+				android:textSize="@dimen/button_text_size"
+				android:layout_marginTop="5dp"			
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/white" 
+				android:onClick="viewInfo"/>
+			
+			<!-- Suspicious Package -->
+			<Button
+		        android:id="@+id/suspiciousPackageButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+				android:layout_below="@+id/hazardousMaterialShelterText"
+				android:layout_alignRight="@+id/hazardousMaterialShelterButton"
+		        android:background="@drawable/suspicious_package"
+		        android:onClick="viewInfo" /> 
+		        
+			<TextView
+				android:id="@+id/suspiciousPackageText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/suspiciousPackageButton"
+				android:layout_alignRight="@+id/suspiciousPackageButton"
+				android:gravity="center"
+				android:text="@string/suspicious_package"
+				android:layout_below="@+id/suspiciousPackageButton"
+				android:textSize="@dimen/button_text_size"
+				android:layout_marginTop="5dp"		
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/white"
+				android:onClick="viewInfo" />
+			
+			
+			<!-- Violence -->
+			<Button
+		        android:id="@+id/violenceButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+				android:layout_alignTop="@+id/utilityFailureButton"
+				android:layout_alignLeft="@+id/medicalEmergencyButton"
+				android:layout_centerHorizontal="true"
+		        android:background="@drawable/violence"
+		        android:onClick="viewInfo" />  
+		        
+			<TextView
+				android:id="@+id/violenceText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/violenceButton"
+				android:layout_alignRight="@+id/violenceButton"
+				android:gravity="center"
+				android:text="@string/violence"
+				android:layout_below="@+id/violenceButton"
+				android:textSize="@dimen/button_text_size"
+				android:layout_marginTop="5dp"		
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/white"
+				android:onClick="viewInfo" />
+			
+			<!-- Utility Failure -->
+			<Button
+		        android:id="@+id/utilityFailureButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+				android:layout_below="@+id/personsInDistressText"
+				android:layout_centerHorizontal="true"
+				android:layout_marginTop="10dp"
+				android:background="@drawable/utility_failure"
+		        android:onClick="viewInfo" /> 
+		        
+			<TextView
+				android:id="@+id/utilityFailureText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/utilityFailureButton"
+				android:layout_alignRight="@+id/utilityFailureButton"
+				android:gravity="center"
+				android:text="@string/utility_failure"
+				android:layout_below="@+id/utilityFailureButton"
+				android:textSize="@dimen/button_text_size"
+				android:layout_marginTop="5dp"		
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="@color/white"
+				android:onClick="viewInfo" />
+			        
+
+				
+ 
+        </RelativeLayout>      
+	</ScrollView>
+</RelativeLayout>
