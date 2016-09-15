@@ -3,6 +3,7 @@ package edu.uci.ZotFinder.service;
 import android.app.IntentService;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.os.SystemClock;
 import android.util.Log;
 import java.io.BufferedReader;
@@ -19,15 +20,18 @@ public class DatabaseBuilderService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        loadDatabase();
+        try {
+            loadDatabase();
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     public DatabaseBuilderService(){
         super("DatabaseBuilderService");
     }
 
-    public void loadDatabase()
-    {
+    public void loadDatabase() throws PackageManager.NameNotFoundException {
         long start = SystemClock.elapsedRealtime();
         BuildingDatabase buildingDatabase = new BuildingDatabase(this);
         DepartmentDatabase departmentDatabase = new DepartmentDatabase(this);
@@ -41,8 +45,11 @@ public class DatabaseBuilderService extends IntentService {
 
         SharedPreferences settings = getSharedPreferences("ZotFinder Preferences", 0);
         boolean addedDatabase = settings.getBoolean("addedDatabase", false);
-        if (!addedDatabase)
+        int appVersion = settings.getInt("appVersion", 0);
+        int packageVersion = getPackageManager().getPackageInfo(getPackageName(), 0).versionCode;
+        if (appVersion < packageVersion)
         {
+            settings.edit().putInt("appVersion", packageVersion);
             Log.v("DatabaseBuilderService", "Starting...");
             buildingIS = getResources().openRawResource(R.raw.building_file);
             try {

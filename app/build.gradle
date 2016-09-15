@@ -8,8 +8,8 @@ android {
         applicationId "edu.uci.ZotFinder"
         minSdkVersion 15
         targetSdkVersion 22
-        versionCode 3
-        versionName "2.1"
+        versionCode 4
+        versionName "2.1.1"
     }
     buildTypes {
         release {
