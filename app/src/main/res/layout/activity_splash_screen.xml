@@ -7,7 +7,7 @@
         android:id="@+id/imgLogo"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:src="@drawable/zotfindersplashscreen" 
+        android:src="@drawable/splashscreen"
         android:scaleType="fitXY"/>
  
 </RelativeLayout>

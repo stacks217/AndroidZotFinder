@@ -2,29 +2,20 @@
 <RelativeLayout
     android:id="@+id/R1DLayout"
   	android:layout_width="wrap_content"
-  	android:layout_height="wrap_content" 
+  	android:layout_height="wrap_content"
+    android:background="@color/dialer_background_blue"
   	xmlns:android="http://schemas.android.com/apk/res/android">
-	<!-- This is the button for formatting and Toggling -->
-   	<Button 
-	    android:id="@+id/transparent_button"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:layout_alignParentBottom="true"
-	    android:background="@drawable/map_icon_pressed"
-	    android:alpha="0"
-	    android:textColor="@color/white"
-	    android:textSize="@dimen/button_text_size" />
-		   	    	    
-    <!-- Footer -->
-    <include
-        android:id="@+id/footer"
-        layout="@layout/commonfooter" /> 
+
+    <include layout ="@layout/empty_toolbar"
+        android:id="@+id/empty_toolbar_layout"/>
         
      <!-- Top Half of layout -->
    	<RelativeLayout
 	    android:id="@+id/R2DLayout"
-	  	android:layout_width="wrap_content"
-	  	android:layout_height="wrap_content" >
+	  	android:layout_width="match_parent"
+	  	android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:layout_below="@id/empty_toolbar_layout">
 
     <!-- 911 button -->
      <Button
@@ -38,348 +29,40 @@
          android:textColor="@color/white"
          android:textSize="@dimen/font_size"
          android:textStyle="bold"
-         android:onClick="call911"
-         />
- 
+         android:onClick="call911"/>
 	</RelativeLayout>
- 	
-	<ScrollView 
-	    android:id="@+id/ScrollLayout"
-	    android:layout_width="fill_parent"
-  		android:layout_height="wrap_content"
-  		android:layout_marginTop="15dp"
-  		android:layout_below="@+id/R2DLayout"
-  		android:layout_above="@+id/transparent_button">
-     
-     	<RelativeLayout
-     	    android:layout_width="match_parent"
-  			android:layout_height="wrap_content">
-  			
-			   <LinearLayout
-			      android:id="@+id/row1"
-			      android:layout_width="match_parent"
-			      android:layout_height="wrap_content"
-			      android:layout_marginBottom="5dp"
-			      android:baselineAligned="false">
-			      
-				   <LinearLayout
-				      android:id="@+id/row1collumn1"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:gravity="center">
-					  
-				       	<Button 
-					        android:id="@+id/communityserviceofficerbutton"
-					        android:layout_width="wrap_content"
-					        android:layout_height="wrap_content"
-					        android:background="@drawable/communityserviceofficer"
-				            android:onClick="callCSO" />
-					</LinearLayout>
-					
-				    <LinearLayout
-				      android:id="@+id/row1collumn2"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:gravity="center">
-				       	<Button 
-					        android:id="@+id/councelingcenterbutton"
-					        android:layout_width="wrap_content"
-					        android:layout_height="wrap_content"
-					        android:background="@drawable/counselingcenter"
-				            android:onClick="callCounselingCenter"/> 
-					</LinearLayout>
-					
-					<LinearLayout
-				      android:id="@+id/row1collumn3"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:gravity="center">
-				       	<Button 
-					        android:id="@+id/emergencymanagementbutton"
-					        android:layout_width="wrap_content"
-					        android:layout_height="wrap_content"
-					        android:background="@drawable/emergencymanagement"
-				            android:onClick="callEmergencyMgmt" />
-					</LinearLayout>
-				</LinearLayout>
-				<LinearLayout
-			      android:id="@+id/row1text"
-			      android:layout_width="match_parent"
-			      android:layout_height="wrap_content"
-			      android:layout_below="@+id/row1"
-			      android:baselineAligned="false">
-			      
-				   <LinearLayout
-				      android:id="@+id/row1collumn1text"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:layout_gravity="center_horizontal"
-					  android:gravity="center">
-					  
-					  <TextView 
-						android:id="@+id/communityserviceofficertext"
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content" 
-						android:text="@string/community_service_officer"
-						android:textSize="11sp"
-						android:gravity="center"/>
-					</LinearLayout>
-					
-				    <LinearLayout
-				      android:id="@+id/row1collumn2text"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:layout_gravity="center_horizontal"
-					  android:gravity="center">
-				       	<TextView 
-						android:id="@+id/counselingcentertext"
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content" 
-						android:text="@string/counseling_center"
-						android:textSize="11sp"
-						android:gravity="center"/>
-					</LinearLayout>
-					
-					<LinearLayout
-				      android:id="@+id/row1collumn3text"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:layout_gravity="center_horizontal"
-					  android:gravity="center">
-				       	<TextView 
-						android:id="@+id/emergencymanagementtext"
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content" 
-						android:text="@string/emergency_management"
-						android:textSize="11sp"
-						android:gravity="center"/>
-					</LinearLayout>
-				</LinearLayout>
-			   
-				<LinearLayout
-				    android:id="@+id/row2"
-			      	android:layout_width="match_parent"
-			      	android:layout_height="wrap_content"
-			      	android:layout_below="@+id/row1text"
-			      	android:layout_marginTop="10dp"
-			      	android:layout_marginBottom="5dp"
-			      	android:baselineAligned="false">
-			     	 
-				   	<LinearLayout
-				   	    android:id="@+id/row2collumn1"
-				      	android:layout_width="0dp"
-					  	android:layout_height="wrap_content"
-					  	android:layout_weight="1"
-					  	android:gravity="center">
-					  
-				       	<Button 
-					        android:id="@+id/environmentalhealthbutton"
-					        android:layout_width="wrap_content"
-					        android:layout_height="wrap_content"
-					        android:background="@drawable/environmentalhealthandsafety"
-				            android:onClick="callEnvironmentalHealth" />
-					</LinearLayout>
-					
-				    <LinearLayout
-				      android:id="@+id/row2collumn2"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:gravity="center">
-				       	<Button 
-					        android:id="@+id/facilitiesmanagementbutton"
-					        android:layout_width="wrap_content"
-					        android:layout_height="wrap_content"
-					        android:background="@drawable/facilitiesmanagement"
-				            android:onClick="callFacilitiesMgmtService"/> 
-					</LinearLayout>
-					
-					<LinearLayout
-				      android:id="@+id/row2collumn3"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:gravity="center">
-				       	<Button 
-					        android:id="@+id/oitbutton"
-					        android:layout_width="wrap_content"
-					        android:layout_height="wrap_content"
-					        android:background="@drawable/oit"
-				            android:onClick="callOit" />
-					</LinearLayout>
-			</LinearLayout>
-			
-				<LinearLayout
-			      android:id="@+id/row2text"
-			      android:layout_width="match_parent"
-			      android:layout_height="wrap_content"
-			      android:layout_below="@+id/row2"
-			      android:baselineAligned="false">
-			      
-				   <LinearLayout
-				      android:id="@+id/row2collumn1text"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:layout_gravity="center_horizontal"
-					  android:gravity="center">
-					  
-					  <TextView 
-						android:id="@+id/environmentalhealthtext"
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content" 
-						android:text="@string/environmental_health"
-						android:textSize="11sp"
-						android:gravity="center"/>
-					</LinearLayout>
-					
-				    <LinearLayout
-				      android:id="@+id/row2collumn2text"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:layout_gravity="center_horizontal"
-					  android:gravity="center">
-				       	<TextView 
-						android:id="@+id/facilitiesmanagementtext"
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content" 
-						android:text="@string/facilities_management"
-						android:textSize="11sp"
-						android:gravity="center"/>
-					</LinearLayout>
-					
-					<LinearLayout
-				      android:id="@+id/row2collumn3text"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:layout_gravity="center_horizontal"
-					  android:gravity="center">
-				       	<TextView 
-						android:id="@+id/oittext"
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content" 
-						android:text="@string/oit"
-						android:textSize="11sp"
-						android:gravity="center"/>
-					</LinearLayout>
-				</LinearLayout>
-				
-			<LinearLayout
-				    android:id="@+id/row3"
-			      	android:layout_width="match_parent"
-			      	android:layout_height="wrap_content"
-			      	android:layout_below="@+id/row2text"
-			      	android:layout_marginTop="10dp"
-			      	android:layout_marginBottom="5dp"
-			      	android:baselineAligned="false">
-			     	 
-				   	<LinearLayout
-				   	    android:id="@+id/row3collumn1"
-				      	android:layout_width="0dp"
-					  	android:layout_height="wrap_content"
-					  	android:layout_weight="1"
-					  	android:gravity="center">
-					  
-				       	<Button 
-					        android:id="@+id/policedepartmentbutton"
-					        android:layout_width="wrap_content"
-					        android:layout_height="wrap_content"
-					        android:background="@drawable/pddispatch"
-				            android:onClick="callUciPoliceDept" />
-					</LinearLayout>
-					
-				    <LinearLayout
-				      android:id="@+id/row3collumn2"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:gravity="center">
-				       	<Button 
-					        android:id="@+id/studenthealthbutton"
-					        android:layout_width="wrap_content"
-					        android:layout_height="wrap_content"
-					        android:background="@drawable/studenthealth"
-				            android:onClick="callStudentHealth"/> 
-					</LinearLayout>
-					
-					<LinearLayout
-				      android:id="@+id/row3collumn3"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:gravity="center">
-				       	<Button 
-					        android:id="@+id/uciemergencyinfolinebutton"
-					        android:layout_width="wrap_content"
-					        android:layout_height="wrap_content"
-					        android:background="@drawable/uciemergencyinfoline"
-				            android:onClick="callEmergencyInfoLine" />
-					</LinearLayout>
-			</LinearLayout>	
-				<LinearLayout
-			      android:id="@+id/row3text"
-			      android:layout_width="match_parent"
-			      android:layout_height="wrap_content"
-			      android:layout_below="@+id/row3"
-			      android:baselineAligned="false">
-			      
-				   <LinearLayout
-				      android:id="@+id/row3collumn1text"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:layout_gravity="center_horizontal"
-					  android:gravity="center">
-					  
-					  <TextView 
-						android:id="@+id/policedepartmenttext"
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content" 
-						android:text="@string/police_department_dispatch"
-						android:textSize="11sp"
-						android:gravity="center"/>
-					</LinearLayout>
-					
-				    <LinearLayout
-				      android:id="@+id/row2collumn2text"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:layout_gravity="center_horizontal"
-					  android:gravity="center">
-				       	<TextView 
-						android:id="@+id/studenthealthtext"
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content" 
-						android:text="@string/student_health"
-						android:textSize="11sp"
-						android:gravity="center"/>
-					</LinearLayout>
-					
-					<LinearLayout
-				      android:id="@+id/row2collumn3text"
-				      android:layout_width="0dp"
-					  android:layout_height="wrap_content"
-					  android:layout_weight="1"
-					  android:layout_gravity="center_horizontal"
-					  android:gravity="center">
-				       	<TextView 
-						android:id="@+id/uciemergencyinfolinetext"
-						android:layout_width="wrap_content"
-						android:layout_height="wrap_content" 
-						android:text="@string/uci_emergency_info_line"
-						android:textSize="11sp"
-						android:gravity="center"/>
-					</LinearLayout>
-				</LinearLayout>		
-		</RelativeLayout>	   
-	</ScrollView>
+
+    <View
+        android:id="@+id/greyLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/R2DLayout"/>
+
+    <fragment android:name="edu.uci.ZotFinder.fragment.FooterFragment"
+        android:id="@+id/footerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/dialerGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="90dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:layout_below="@id/greyLine"
+        android:layout_above="@id/footerFragment"/>
+    <View
+        android:id="@+id/shade"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_overlay"
+        android:visibility="invisible"/>
 </RelativeLayout>

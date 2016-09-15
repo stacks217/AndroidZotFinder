@@ -12,6 +12,7 @@
 
     <!-- search everything related -->
     <string name="search_header">Search</string>
+    <string name="action_directions">Directions</string>
     <string name="person_info">Person Name</string>
     <string name="office_header">Office</string>
     <string name="phone_header">Office Phone Number</string>
@@ -26,33 +27,37 @@
     <string name="bldg_number">Building Number</string>
     <string name="bldg_address">Address</string>
 
-    <!-- 3 Links Bottom Page -->
-    <string name="map_link">Map</string>
-    <string name="emergency_link">Emergency</string>
-    <string name="dialer_link">Dialer</string>
+    <!-- Toolbar titles -->
+    <string name="emergency_title">Emergency</string>
+    <string name="dialer_title">Dialer</string>
 
     <!-- Emergency Info Home -->
     <string name="emergency_info_header">Emergency Information</string>
     <string name="top_emergencies">Top Emergencies</string>
     <string name="emergency_procedures">Emergency Procedures</string>
     <string name="roles_expectations">Roles / Expectations</string>
+    <string name="emergency_info">Emergency Information</string>
+    <string name="roles_and_expectations">Roles &amp; Expectations</string>
     <string name="student_button">Student</string>
     <string name="faculty_button">Faculty/Staff</string>
+    <string name="student_expectations">Student Expectations</string>
+    <string name="faculty_expectations">Faculty Expectations</string>
     <string name="other_emergencies">All Emergencies</string>
-    <string name="active_shooter">Active\nShooter</string>
+    <string name="active_shooter">Active Shooter</string>
     <string name="earthquake">Earthquake</string>
     <string name="violence">Violence</string>
-    <string name="evacuation_disabilities">Evacuation\nDisabilities</string>
-    <string name="suspicious_package">Suspicious\nPackage</string>
+    <string name="evacuation_disabilities">Evacuation Disabilities</string>
+    <string name="suspicious_package">Suspicious Package</string>
     <string name="evacuation">Evacuation</string>
-    <string name="hazardous_material">Hazardous\nMaterial</string>
-    <string name="hazardous_material_shelter">Hazardous\nMaterial\nShelter</string>
-    <string name="bomb_threat">Bomb\nThreat</string>
-    <string name="medical_emergency">Medical\nEmergency</string>
-    <string name="emergency_preparedness">Emergency\nPreparedness</string>
+    <string name="hazardous_material">Hazardous Material</string>
+    <string name="hazardous_material_shelter">Hazardous Material Shelter</string>
+    <string name="bomb_threat">Bomb Threat</string>
+    <string name="medical_emergency">Medical Emergency</string>
+    <string name="emergency_preparedness">Emergency Preparedness</string>
     <string name="fire">Fire</string>
-    <string name="persons_in_distress">Person\nIn\nDistress</string>
-    <string name="utility_failure">Utility\nFailure</string>
+    <string name="persons_in_distress">Person In Distress</string>
+    <string name="utility_failure">Utility Failure</string>
+    <string name="secure_in_place">Secure-In-Place</string>
 
     <!-- Emergency Info Home -->
     <string name="active_shooter_title">Active Shooter</string>
@@ -69,17 +74,18 @@
     <string name="fire_title">Fire</string>
     <string name="persons_in_distress_title">Person In Distress</string>
     <string name="utility_failure_title">Utility Failure</string>
+    <string name="secure_in_place_title">Secure-In-Place</string>
     
     <!-- Dialer -->
-    <string name="community_service_officer">Community Service\r\nOfficer (CSO)</string>
+    <string name="community_service_officer">Community Service Officer (CSO)</string>
     <string name="counseling_center">Counseling Center</string>
-    <string name="emergency_management">Emergency\r\nManagement</string>
-    <string name="environmental_health">Environmental\r\nHealth &amp; Safety</string>
-    <string name="facilities_management">Facilities Management\r\nService Desk</string>
-    <string name="oit">Office of Information\r\nTechnology (OIT)</string>
-    <string name="police_department_dispatch">Police Department\r\nDispatch</string>
+    <string name="emergency_management">Emergency Management</string>
+    <string name="environmental_health">Environmental Health &amp; Safety</string>
+    <string name="facilities_management">Facilities Management Service Desk</string>
+    <string name="oit">Office of Information Technology (OIT)</string>
+    <string name="police_department_dispatch">Police Department Dispatch</string>
     <string name="student_health">Student Health</string>
-    <string name="uci_emergency_info_line">UCI Emergency\r\nInfo. Line</string>
+    <string name="uci_emergency_info_line">UCI Emergency Info Line</string>
 	<string name="call_911">911</string>
     <!-- Search -->
     <string name="input_text">UCINetID</string>
@@ -88,116 +94,174 @@
     <!-- Active Shooter -->
     <string name="active_shooter_text">
 <![CDATA[
-			<p>&#8226; <b>Call 911</b>, if safe to do so.<br></p>
-			<p>&#8226; <b>Run</b> - if you can get out, escape the area.<br></p>
-			<p>&#8226; <b>Hide</b>  secure in place, lock/barricade doors, turn off lights, silence phones, and be quiet.<br></p>
-			<p>&#8226; <b>Fight</b> - as a last resort, attack aggressively.</p>
-		
+			<ul>
+			    <li><b>Call 911</b> if safe to do so.</li>
+			    <br>
+			    <li><b>Run</b> if you can get out, escape the area.</li>
+			    <br>
+			    <li><b>Hide</b> secure in place, lock/barricade doors, turn off lights, silence phones, and be quiet.</li>
+			    <br>
+			    <li><b>Fight</b> as a last resort, attack aggressively.</li>
+			</ul>
 			]]>
     </string>
 
     <!-- Earthquake -->
     <string name="earthquake_text">
 <![CDATA[
-
-			<p>If you are inside:<br></p>
-			<p>&#8226; Drop-Cover-Hold under a table or desk or against an inside wall until the shaking stops.<br></p>
-			<p>&#8226; Avoid windows, filing cabinets, bookcases and other heavy objects.<br></p>
-			<p>&#8226; After the shaking stops, check for injuries and assess your surroundings for damage.<br></p>
-			<p>&#8226; Evacuate the building if you feel unsafe or if told to do so by building staff or emergency 
-			responders.<br></p>
-			<p>&#8226; Do not leave the area/campus without reporting your status to someone in charge.<br><br></p>
-			<p>If you are outside:<br></p>
-			<p>&#8226; Move away from trees, signs, buildings, electrical poles and wires. <br></p>
-			<p>&#8226; Protect your head with your arms.<br></p>
-			<p>&#8226; Proceed to the nearest assembly area.<br></p>
-		
+            <b>If you are inside:</b>
+			<ul>
+                <li>Drop-Cover-Hold under a table or desk or against an inside wall until the shaking stops.</li>
+                <br>
+                <li>Avoid windows, filing cabinets, bookcases and other heavy objects.</li>
+                <br>
+                <li>After the shaking stops, check for injuries and assess your surroundings for damage.</li>
+                <br>
+                <li>Evacuate the building if you feel unsafe or if told to do so by building staff or emergency
+			    responders.</li>
+                <br>
+                <li>Do not leave the area/campus without reporting your status to someone in charge.</li>
+                <br>
+			</ul>
+			<b>If you are outside:</b>
+			<ul>
+			    <li>Move away from trees, signs, buildings, electrical poles and wires.</li>
+                <br>
+                <li>Protect your head with your arms.</li>
+                <br>
+                <li>Proceed to the nearest assembly area.</li>
+			</ul>
 			]]>
     </string>
 
     <!-- Persons In Distress -->
     <string name="persons_in_distress_text">
 <![CDATA[
-
-			<p>Persons Who Are Disruptive<br></p>
+			<p><b>Persons Who Are Disruptive</b><br></p>
 			<p>If a person displays conduct that is reckless, disorderly, threatening, 
 			including self-harmful behavior, and you are concerned for your safety or the 
 			safety of others, please call 911 or the UCI Police Department.<br></p>
 			<p>If the conduct is not life threatening:<br></p>
-			<p>&#8226; For a UCI student, contact the Office of Student Conduct.<br></p>
-			<p>&#8226; For a UCI employee, contact Human Resources.<br></p>
-			<p>Persons Who Are Distressed<br></p>
+			<ul>
+			    <li>For a UCI student, contact the Office of Student Conduct.</li>
+			    <br>
+			    <li>For a UCI employee, contact Human Resources.</li>
+			    <br>
+			</ul>
+			<p><b>Persons Who Are Distressed</b><br></p>
 			<p>Distressed persons display persistent behaviors, such as: anxious, sad, irritable, 
 			withdrawn, confused, lacks motivation and/or concentration, seeks constant attention, 
-			demonstrates bizarre or erratic behavior, or expresses suicidal thoughts.<br></p> 
-			<p>&#8226; For a UCI student, contact the Counseling Center, Student Health Center, Campus 
-			Assault Resources and Education (CARE), or the UCI Police Department for help.<br></p>
-			<p>&#8226; For a UCI employee, contact Human Resources, Cascade Employee Assistance Program,
-			 or the UCI Police Department for help.<br></p>
+			demonstrates bizarre or erratic behavior, or expresses suicidal thoughts.<br></p>
+			<ul>
+                <li>For a UCI student, contact the Counseling Center, Student Health Center, Campus
+                Assault Resources and Education (CARE), or the UCI Police Department for help.</li>
+                <br>
+                <li>For a UCI employee, contact Human Resources, Guidance Resources Employee Assistance Program,
+                or the UCI Police Department for help.</li>
+                <br>
+			</ul>
 			<p>For consultation regarding disruptive or distressed individuals, please contact the UCI 
-			Consultation Team through the Office of the Clinical Social Worker. <br></p>
-			
-		
+			Consultation Team through the Office of the Clinical Social Worker.<br></p>
 			]]>
     </string>
 
     <!-- Fire -->
     <string name="fire_text">
 <![CDATA[
-			
-		    <p>If you discover a fire:<br></p>
-			<p>&#8226; Extinguish the fire if you have been trained and if it is safe to do so.<br></p>
-			<p>&#8226; Evacuate the immediate area and close doors behind you.<br></p> 
-			<p>&#8226; Pull the nearest fire alarm.<br></p>
-			<p>&#8226; Call 911 if safe to do so. Otherwise, evacuate the building then call 911.<br></p>
-			<p>&#8226; Do not re-enter the building until an &#34;All Clear&#34; is given by emergency responders.<br></p>
-			<p>If you hear a fire alarm:<br></p>
-			<p>&#8226; Evacuate as soon as the alarm sounds.<br></p>
-			<p>&#8226; Test closed doors with the back of your hand. DO NOT open doors if they are hot.<br></p>
-			<p>&#8226; Use stairs only. Do not use elevators.<br></p>
-			<p>&#8226; Proceed to the designated assembly area.<br></p>
-			<p>&#8226; Do not re-enter the building until an &#34;All Clear&#34; is given by emergency responders.<br></p>
-		
+		    <b>If you discover a fire:</b><br>
+		    <ul>
+                <li>Extinguish the fire if you have been trained and if it is safe to do so.</li>
+                <br>
+                <li>Evacuate the immediate area and close doors behind you.</li>
+                <br>
+                <li>Pull the nearest fire alarm.</li>
+                <br>
+                <li>Call 911 if safe to do so. Otherwise, evacuate the building then call 911.</li>
+                <br>
+                <li>Do not re-enter the building until an &#34;All Clear&#34; is given by emergency responders.</li>
+                <br>
+			</ul>
+			<b>If you hear a fire alarm:</b><br>
+			<ul>
+                <li>Evacuate as soon as the alarm sounds.</li>
+                <br>
+                <li>Test closed doors with the back of your hand. DO NOT open doors if they are hot.</li>
+                <br>
+                <li>Use stairs only. Do not use elevators.</li
+                <br>
+                <li>Proceed to the designated assembly area.</li>
+                <br>
+                <li>Do not re-enter the building until an &#34;All Clear&#34; is given by emergency responders.</li>
+                <br>
+		    </ul>
 			]]>
     </string>
     <!-- Emergency Preparedness -->
     <string name="emergency_preparedness_text">
 <![CDATA[
-			
-			<p>Are you prepared for an emergency situation? Take these simply steps to improve the preparedness 
+			<p>Are you prepared for an emergency situation? Take these simply steps to improve the preparedness
 			of you, your family, and your work colleagues.<br></p>
-			<p>Have A Kit<br></p>
+			<b>Have A Kit<br></b>
 			<p>Keep an emergency kit at home, in your car, and in your office.<br></p>
-			<p>&#8226; Water - one gallon per person per day for at least 3 days for drinking and sanitation.<br></p>
-			<p>&#8226; Food - at least a 3 day supply of non-perishable food.<br></p>
-			<p>&#8226; Battery operated Radio and Flashlight with extra batteries.<br></p>
-			<p>&#8226; First Aid Kit.<br></p>
-			<p>&#8226; Whistle.<br></p>
-			<p>&#8226; All Purpose Tool.<br></p>
-			<p>&#8226; Basic sanitation items like towelettes, garbage bags, hand sanitizer, tissues.<br></p>
-			<p>&#8226; Change of clothes and sturdy shoes.<br></p>
-			<p>Make A Plan<br></p>
-			<p>&#8226; Have an out-of-town contact for family members to report in to.<br></p>
-			<p>&#8226; ICE your cell phone - identify who to call In Case of Emergency.<br></p>
-			<p>&#8226; Be prepared to limit phone use to essential calls only. Text messages may go 
-			through when phone calls will not.<br></p>
-			<p>&#8226; Select a family meeting location in case your house is not safe or accessible.<br></p>
-			<p>Be Informed<br></p>
-			<p>&#8226; The Top 5 Hazards For UC Irvine are:<br></p>
-			<p>o Catastrophic Earthquake.<br></p>
-			<p>o Laboratory or Housing Fire.<br></p>
-			<p>o Civil Disturbance.<br></p>
-			<p>o Public Health Emergency.<br></p>
-			<p>o Active Shooter/Workplace Violence.<br></p>
-			<p>&#8226; Know what to do in case of an emergency on campus.<br></p>
-			<p>&#8226; Know evacuation routes and the pre-designated assembly areas for the buildings 
-			you are in most frequently.<br></p>
-			<p>&#8226; Inquire about the emergency plan for family members\' work and school.<br></p>
-			<p>&#8226; Visit www.ready.gov for more information.<br></p>
-			<p>&#8226; For campus emergency preparedness information visit www.police.uci.edu.<br></p>
-			<p>&#8226; Sign up to receive zotALERT text messages at www.oit.uci.edu/zotalert.<br></p>
-			
-					
+			<ul>
+                <li>Water - one gallon per person per day for at least 3 days for drinking and sanitation.</li>
+                <br>
+                <li>Food - at least a 3 day supply of non-perishable food.</li>
+                <br>
+                <li>Battery operated Radio and Flashlight with extra batteries.</li>
+                <br>
+                <li>First Aid Kit.</li>
+                <br>
+                <li>Whistle.</li>
+                <br>
+                <li>All Purpose Tool.</li>
+                <br>
+                <li>Basic sanitation items like towelettes, garbage bags, hand sanitizer, tissues.</li>
+                <br>
+                <li>Change of clothes and sturdy shoes.</li>
+                <br>
+			</ul>
+			<b>Make A Plan</b><br>
+			<ul>
+                <li>Have an out-of-town contact for family members to report in to.</li>
+                <br>
+                <li>ICE your cell phone - identify who to call In Case of Emergency.</li>
+                <br>
+                <li>Be prepared to limit phone use to essential calls only. Text messages may go
+                through when phone calls will not.</li>
+                <br>
+                <li>Select a family meeting location in case your house is not safe or accessible.</li>
+                <br>
+			</ul>
+			<b>Be Informed</b><br>
+			<ul>
+                <li>The Top 5 Hazards For UC Irvine are:
+                    <ul><br>
+                        <li>Catastrophic Earthquake.</li>
+                        <br>
+                        <li>Laboratory or Housing Fire.</li>
+                        <br>
+                        <li>Civil Disturbance.</li>
+                        <br>
+                        <li>Public Health Emergency.</li>
+                        <br>
+                        <li>Active Shooter/Workplace Violence.</li>
+                        <br>
+                    </ul>
+                </li>
+                <li>Know what to do in case of an emergency on campus.</li>
+                <br>
+                <li>Know evacuation routes and the pre-designated assembly areas for the buildings
+                you are in most frequently.</li>
+                <br>
+                <li>Inquire about the emergency plan for family members\' work and school.</li>
+                <br>
+                <li>Visit <a href="http://www.ready.gov">www.ready.gov</a> for more information.</li>
+                <br>
+                <li>For campus emergency preparedness information visit <a href="http://www.police.uci.edu">www.police.uci.edu.</a></li>
+                <br>
+                <li>Sign up to receive zotALERT text messages at <a href="http://www.oit.uci.edu/zotalert">www.oit.uci.edu/zotalert.</a></li>
+			</ul>
 			]]>
     </string>
 
@@ -208,91 +272,132 @@
 			are made by individuals who want to create an atmosphere of 
 			general anxiety or panic. All bomb threats should be assumed to 
 			pose a legitimate danger to the UCI campus.<br><br></p>
-			<p>By Telephone:<br></p>
-			<p>1. Take the caller seriously, but remain calm.<br></p>
-			<p>2. Ask a lot of questions, such as: When will the bomb explode?
-			Where is it located? What does it look like? What kind of bomb is 
-			it?<br></p>
-			<p>3. Take notes on everything said and on your observations 
-			about background noise, voice characteristics, etc.<br></p>
-			<p>4. If possible, have a co-worker call the UCI Police Department 
-			while you continue talking to the caller.<br></p>
-			<p>5. Call 911 immediately after the threatening call.<br></p>
-			<p>6. Notify your supervisor/department head. <br></p>
-			<p>7. Campus police will determine if evacuation is necessary.
-			If you do evacuate, move to an evacuation assembly area.<br></p>
-			<p>8. Do not re-enter the area until instructed to do so.<br></p>
-		
+			<b>By Telephone:</b><br>
+			<ol>
+                <li>Take the caller seriously, but remain calm.</li>
+                <br>
+                <li>Ask a lot of questions, such as: When will the bomb explode?
+                Where is it located? What does it look like? What kind of bomb is
+                it?</li>
+                <br>
+                <li>Take notes on everything said and on your observations
+                about background noise, voice characteristics, etc.</li>
+                <br>
+                <li>If possible, have a co-worker call the UCI Police Department
+                while you continue talking to the caller.</li>
+                <br>
+                <li>Call 911 immediately after the threatening call.</li>
+                <br>
+                <li>Notify your supervisor/department head.</li>
+                <br>
+                <li>Campus police will determine if evacuation is necessary.
+                If you do evacuate, move to an evacuation assembly area.</li>
+                <br>
+                <li>Do not re-enter the area until instructed to do so.</li>
+            </ol>
 			]]>
     </string>
 
     <!-- Evacuation -->
     <string name="evacuation_text">
 <![CDATA[
-			<p>&#8226; Stay calm. Do not panic. Move swiftly.<br></p>
-			<p>&#8226; Safely stop your work and secure any hazardous materials or equipment before leaving.<br></p>
-			<p>&#8226; Gather your personal belongings if safe to do so.<br></p>
-			<p>&#8226; Proceed to the nearest safe exit.<br></p>
-			<p>&#8226; Do not use elevators.<br></p>
-			<p>&#8226; Proceed to the designated assembly area.<br></p>
-			<p>&#8226; Wait for instructions from emergency responders.<br></p>
-			<p>&#8226; Do not re-enter the building until an &#34;All Clear&#34; is given by emergency responders.<br></p>
-			
+			<ul>
+                <li>Stay calm. Do not panic. Move swiftly.</li>
+                <br>
+                <li>Safely stop your work and secure any hazardous materials or equipment before leaving.</li>
+                <br>
+                <li>Gather your personal belongings if safe to do so.</li>
+                <br>
+                <li>Proceed to the nearest safe exit.</li>
+                <br>
+                <li>Do not use elevators.</li>
+                <br>
+                <li>Proceed to the designated assembly area.</li>
+                <br>
+                <li>Wait for instructions from emergency responders.</li>
+                <br>
+                <li>Do not re-enter the building until an &#34;All Clear&#34; is given by emergency responders.</li
+			</ul>
 			]]>
     </string>
 
     <!-- Hazardous Material -->
     <string name="hazardous_material_text">
 <![CDATA[
-			<p>&#8226; Evacuate affected area.<br></p>
-			<p>&#8226; Call 911.<br></p>
-			<p>&#8226; Provide the dispatcher with information on the material type, quantity, and specific location of
-			the spill or release.<br></p>	
-			<p>&#8226; Isolate the spill/release and deny entry to the area.<br></p>
-			<p>&#8226; Notify EH&S at (949) 824-6200 if you have been exposed to a hazard or you have information about
-			the release.<br></p>
-			<p>&#8226; Follow instructions of emergency responders.<br></p>
-		
+            <ul>
+                <li>Evacuate affected area.</li>
+                <br>
+                <li>Call 911.</li>
+                <br>
+                <li>Provide the dispatcher with information on the material type, quantity, and specific location of
+                the spill or release.</li>
+                <br>
+                <li>Isolate the spill/release and deny entry to the area.</li>
+                <br>
+                <li>Notify EH&S at (949) 824-6200 if you have been exposed to a hazard or you have information about
+                the release.</li>
+                <br>
+                <li>Follow instructions of emergency responders.</li>
+                <br>
+		    </ul>
 			]]>
     </string>
 
     <!-- Violence -->
     <string name="violence_text">
 <![CDATA[
-			<p>If you See Something, Say Something.<br><br></p>
+			<p><b>If you See Something, Say Something.</b><br></p>
 			<p>Immediately call 911 from a safe location if you are the victim of or witness to:<br></p>
-			<p>&#8226; Assault.<br></p>
-			<p>&#8226; Verbal or other threat of bodily harm.<br></p>
-			<p>&#8226; Suspicious activity or suspicious packages/items.<br></p>
-			<p>&#8226; Crimes in progress.<br></p>
-			<p>&#8226; Weapons violations.<br></p>
-			<p>&#8226; Activities presenting a serious risk to yourself or others.<br></p>
+			<ul>
+                <li>Assault.</li>
+                <br>
+                <li>Verbal or other threat of bodily harm.</li>
+                <br>
+                <li>Suspicious activity or suspicious packages/items.</li>
+                <br>
+                <li>Crimes in progress.</li>
+                <br>
+                <li>Weapons violations.</li>
+                <br>
+                <li>Activities presenting a serious risk to yourself or others.</li>
+                <br>
+			</ul>
 			<p>Do not confront the suspect or block their exit.<br></p>
 			<p>Do not take unnecessary chances.<br></p>
-			 
 			]]>
     </string>
 
     <!-- Evacuation Disabilities -->
     <string name="evacuation_disabilities_text">
 <![CDATA[
-    		<p>1. Persons with disabilities, access or functional needs are urged to self-identify and work with 
-			their supervisor, colleagues, classmates, and Zone Crew members to determine evacuation 
-			routes and methods, areas of safe refuge, and other emergency planning needs before an 
-			emergency occurs.<br></p>
-			<p>2. In many cases, evacuation from the building may not be necessary or advisable. Evacuate when 
-			the fire alarms are activated, directed by emergency responders, or danger is imminent.<br></p>
-			<p>3. Proceed to the nearest safe exit. Implement your individual emergency plan. Request assistance 
-			from others in the area if exit is difficult or obstructed.<br></p>
-			<p>4. If unable to evacuate the building:<br></p>
-			<p>a. Take safe refuge in a fire-rated stairwell. Close the door to keep smoke out. OR<br></p>
-			<p>b. Evacuate "horizontally" to a room away from hazards. Close the doors, Signal rescuers 
-			by placing a sign in the window. Place wet cloths around and under the door to prevent 
-			smoke from entering. Call 911 and provide your location to the dispatcher. Follow their 
-			directions.<br></p>
-			<p>c. If safe to do so, it is preferred that someone stay with the person with the disability.<br></p>
-			<p>d. Designate one person to contact on-scene emergency personnel with location, nature of 
-			evacuation needs, etc.	<br></p>
+    		<ol>
+                <li>Persons with disabilities, access or functional needs are urged to self-identify and work with
+                their supervisor, colleagues, classmates, and Zone Crew members to determine evacuation
+                routes and methods, areas of safe refuge, and other emergency planning needs before an
+                emergency occurs.</li>
+                <br>
+                <li>In many cases, evacuation from the building may not be necessary or advisable. Evacuate when
+                the fire alarms are activated, directed by emergency responders, or danger is imminent.</li>
+                <br>
+                <li>Proceed to the nearest safe exit. Implement your individual emergency plan. Request assistance
+                from others in the area if exit is difficult or obstructed.</li>
+                <br>
+                <li>If unable to evacuate the building:
+                    <ol><br>
+                        <li type ="a">Take safe refuge in a fire-rated stairwell. Close the door to keep smoke out. OR</li>
+                        <br>
+                        <li type ="a">Evacuate &#34;horizontally&#34; to a room away from hazards. Close the doors, Signal rescuers
+                        by placing a sign in the window. Place wet cloths around and under the door to prevent
+                        smoke from entering. Call 911 and provide your location to the dispatcher. Follow their
+                        directions.</li>
+                        <br>
+                        <li type ="a">If safe to do so, it is preferred that someone stay with the person with the disability.</li>
+                        <br>
+                        <li type ="a">Designate one person to contact on-scene emergency personnel with location, nature of
+                        evacuation needs, etc.</li>
+                    </ol>
+                </li>
+            </ol>
 			]]>
     </string>
 
@@ -303,142 +408,191 @@
 			chemicals, biological or radioactive materials to the outside air. If the outside air quality is threatened 
 			or compromised, sheltering in place keeps you inside an area offering more protection. Although rarely 
 			called for, SIP events usually last only a few hours.<br></p>
-			<p>Immediate Shelter-In-Place:<br></p>
-			<p>&#8226; When the release is nearby and the need to seek shelter is immediate.<br></p>
-			<p>&#8226; Stay inside a building.<br></p>
-			<p>&#8226; If outside, enter the nearest building.<br></p>
-			<p>&#8226; Remain in place until advised by emergency responders that it is safe to leave.<br></p>
-			<p>Delayed Shelter-In-Place<br></p>
-			<p>&#8226; When a release occurs off campus and there is time (30 minutes or more) to move people to 
-			large, enclosed areas.<br></p>
-			<p>&#8226; Follow directions of emergency responders to move quickly to SIP location.<br></p>
-			<p>&#8226; Remain in place until advised by emergency responders that it is safe to leave.<br></p>
-			<p>You may be notified to Shelter-In-Place via Zone Crew members, emergency responders, zotmail, and 
-			ZotALERT text messages.<br></p>
-		
+			<b>Immediate Shelter-In-Place:</b><br>
+			<ul>
+                <li>When the release is nearby and the need to seek shelter is immediate.</li>
+                <li>Stay inside a building.<br></li>
+                <li>If outside, enter the nearest building.<br></li>
+                <li>Remain in place until advised by emergency responders that it is safe to leave.</li>
+			</ul>
+			<b>Delayed Shelter-In-Place</b><br>
+			<ul>
+                <li>When a release occurs off campus and there is time (30 minutes or more) to move people to
+                large, enclosed areas.</li>
+                <li>Follow directions of emergency responders to move quickly to SIP location.</li>
+                <li>Remain in place until advised by emergency responders that it is safe to leave.</li>
+                <li>You may be notified to Shelter-In-Place via Zone Crew members, emergency responders, zotmail, and
+                ZotALERT text messages.</li>
+		    </ul>
 			]]>
     </string>
 
     <!-- Medical Emergency -->
     <string name="medical_emergency_text">
 <![CDATA[
-
-			<p>&#8226; Call 911.<br></p>
-			<p>&#8226; Do not approach the victim unless it is safe to do so.<br></p>
-			<p>&#8226; Send someone to meet and direct emergency responders.<br></p>
-			<p>&#8226; Do not move the patient unless absolutely necessary.<br></p>
-			<p>&#8226; Do not take seriously ill or injured persons to the Student Health Center.<br></p>
-			<p>&#8226; Provide first aid if trained and if it is safe to do so.<br></p>
-		
+            <ul>
+                <li>Call 911.</li>
+                <br>
+                <li>Do not approach the victim unless it is safe to do so.</li>
+                <br>
+                <li>Send someone to meet and direct emergency responders.</li>
+                <br>
+                <li>Do not move the patient unless absolutely necessary.</li>
+                <br>
+                <li> Do not take seriously ill or injured persons to the Student Health Center.</li>
+                <br>
+                <li>Provide first aid if trained and if it is safe to do so.</li>
+		    </ul>
 			]]>
     </string>
 
     <!-- Power Outage -->
     <string name="utility_failure_text">
 <![CDATA[
-			
-			<p>&#8226; Turn off and unplug computers and other sensitive electrical equipment.<br></p>
-			<p>&#8226; Keep freezers and refrigerators closed during the power outage.<br></p>
-			<p>&#8226; Keep a flashlight with fresh batteries in the area.<br></p>
-			<p>&#8226; Move cautiously to a lighted area.<br></p>
-			<p>&#8226; Exits may be indicated by lighted signs.<br></p>
-			<p>&#8226; Contact the Facilities Management Service Desk at (949) 824-5444.<br></p>
+			<ul>
+                <li>Turn off and unplug computers and other sensitive electrical equipment.</li>
+                <br>
+                <li>Keep freezers and refrigerators closed during the power outage.</li>
+                <br>
+                <li>Keep a flashlight with fresh batteries in the area.</li>
+                <br>
+                <li>Move cautiously to a lighted area.</li>
+                <br>
+                <li>Exits may be indicated by lighted signs.</li>
+                <br>
+                <li>Contact the Facilities Management Service Desk at (949) 824-5444.</li>
+			</ul>
 			]]>
     </string>
 
     <!-- Suspicious Package -->
     <string name="suspicious_package_text">
 <![CDATA[
-
-			<p>&#8226; Do not touch or disturb the object/package.<br></p>
-			<p>&#8226; <b>Call 911</b>, if safe to do so.<br></p>
-			<p>&#8226; Notify a supervisor/department head.<br></p>
-			<p>&#8226; Prepare to evacuate.<br></p>
-			
-		
+            <ul>
+                <li>Do not touch or disturb the object/package.</li>
+                <br>
+                <li><b>Call 911</b>, if safe to do so.</li>
+                <br>
+                <li>Notify a supervisor/department head.</li>
+                <br>
+                <li>Prepare to evacuate.<br></li>
+			</ul>
 			]]>
     </string>
-    <string name="student_expectations">
+    <!-- Secure In Place -->
+    <string name="secure_in_place_text">
 <![CDATA[
 
-			
-		
-			<p>&#8226; Review the UCI Emergency Procedures Chart (aka &#34;Blue Flip Chart&#34;).<br></p>
-			<p>&#8226; If you live on campus, have a copy of the chart posted in your dorm room or apartment.<br></p>
-			<p>&#8226; Know what to do in case of an emergency on campus.<br></p> 
-			<p>&#8226; Evacuate the immediate area and close doors behind you.<br></p> 
-			<p>&#8226; Know the location of emergency blue light phones.<br></p>
-			<p>&#8226; Know evacuation routes and the pre-designated assembly areas for the buildings you.<br></p>
-			<p>&#8226; Sign up to receive zotALERT text messages at www.oit.uci.edu/zotalert <br></p>
-			<p>&#8226; Work with your family to develop a Family Emergency Plan.<br></p>
-			<p>&#8226; Have an emergency kit at home and in your car.<br></p>
-			<p>&#8226; Test closed doors with the back of your hand. DO NOT open doors if they are hot.<br></p>
-		
-		
+			<p>A Secure-In-Place notification may be issued when the UCI Police Department determines that there is a
+			potential threat to the campus. When notified to Secure-In-Place, initiate action immediately. <b>Take ALL zotALERTS
+			seriously.</b> You will be safest by placing a locked door or other barricade between you and the associated violence
+			or danger.<br></p>
+			<b>How do I Secure-In-Place?<br></b>
+			<ul>
+                <li> REMAIN CALM!<br></li>
+                <li>Find an interior room and lock or barricade the doors.</li>
+                <li>If there are other employees, students/visitors with you or in the vicinity, tell them to go to the
+                closest office/classroom/lab/residence hall.</li>
+                <li>To minimize vulnerability, turn off lights, silence phones, and draw blinds.</li>
+                <li>Move away from doors and windows.</li>
+                <li>Move/use furniture to provide added protection.</li>
+                <li>Follow instructions from Police, Fire, Zone Crew team members, and other first responders.</li>
+                <li>DO NOT leave until an all-clear message is received.</li>
+			</ul>
+			<b>What if I am outside?</b><br>
+			<ul>
+                <li>If you are outside during a Secure-In-Place emergency you should seek shelter in a nearby building.</li>
+                <li>If you are unable to get inside a building, seek nearby shelter, e.g. large trees,
+                walls, cars in a parking lot/garage, away from the danger area (if known).</li>
+                <li>Follow instructions from Police, Fire, Zone Crew team members, and other first responders.</li>
+                <li>Stay sheltered until an all-clear message is received.</li>
+			</ul>
+			<b>What if I am in a classroom or lecture hall?</b><br>
+			<ul>
+                <li>Notify class of &#34;Secure-In-Place&#34; order (students, if your professor or TA does
+                not see the alert &#45; notify them).</li>
+                <li>Lock or barricade the doors.</li>
+                <li>Turn off lights, silence phones, and draw blinds.</li>
+                <li>Move away from doors and windows.</li>
+                <li>Move/use furniture to provide added protection.</li>
+                <li>Follow instructions from Police, Fire, Zone Crew team members, and other first responders.</li>
+                <li>DO NOT leave until an all-clear message is received.</li>
+            </ul>
 			]]>
     </string>
-    <string name="faculty_expectations">
+    <string name="student_expectations_text">
 <![CDATA[
-
-			<p>&#8226; Have a copy of the UCI Emergency Procedures Chart (aka &#34;Blue Flip Chart&#34;) accessible in your workspace, laboratories, and classroom(s).<br></p>
-			<p>&#8226; Know your role during an emergency.<br></p> 
-			<p>&#8226; Get to know your Zone Captain and the Zone Crew members in your area.<br></p>
-			<p>&#8226; Know evacuation routes and the pre-designated assembly areas for the buildings you are in most frequently.<br></p>
-			<p><b> Faculty members should be prepared to direct their students to assembly areas in the event of an emergency.</b><br></p> 
-			<p>&#8226; Know the emergency plan and continuity/recovery plan for your department.<br></p> 
-			<p>&#8226; Sign up to receive zotALERT text messages at www.oit.uci.edu/zotalert.<br></p> 
-			<p>&#8226; Have an emergency kit in your office, in your car, and at home.<br></p> 
-			<p>&#8226; Contact the campus Emergency Services Manager at x4-7147 if you are interested in a preparedness presentation for your department.<br></p> 
-			<p>&#8226; Get involved on campus.<br></p> 
-			<p>Become a Zone Crew member. Contact your Zone Captain and visit http://police.uci.edu/em/ZoneCrew.html for more information..<br></p> 
-			<p>Become a Campus Search and Rescue (CSAR) Team Member. Visit www.police.uci.edu/em/csar.html for training sessions and more information..<br></p> 
-			<p>Become First Aid and CPR trained. The ARC offers free or low cost classes conducted by the American Red Cross. Go to http://www.campusrec.uci.edu/ , Classes and Clinics for details.<br></p> 
+            <ul>
+                <li>Review the <a href="http://www.police.uci.edu/em/UCI_EmerProc.pdf">UCI Emergency Procedures Chart</a>
+                (aka &#34;Red Flip Chart&#34;).</li>
+                <br>
+                <li>If you live on campus, have a copy of the chart posted in your dorm room or apartment.</li>
+                <br>
+                <li>Know what to do in case of an emergency on campus.</li>
+                <br>
+                <li>Evacuate the immediate area and close doors behind you.</li>
+                <br>
+                <li>Know the location of emergency blue light phones.</li>
+                <br>
+                <li>Know evacuation routes and the pre-designated assembly areas for the buildings you.</li>
+                <br>
+                <li>Sign up to receive zotALERT text messages at <a href="http://www.oit.uci.edu/zotalert">www.oit.uci.edu/zotalert</a></li>
+                <br>
+                <li>Work with your family to develop a Family Emergency Plan.</li>
+                <br>
+                <li>Have an emergency kit at home and in your car.</li>
+                <br>
+                <li>Test closed doors with the back of your hand. DO NOT open doors if they are hot.</li>
+		    </ul>
 			]]>
     </string>
+    <string name="faculty_expectations_text">
+<![CDATA[
+            <ul>
+                <li>Have a copy of the <a href="http://www.police.uci.edu/em/UCI_EmerProc.pdf">UCI Emergency Procedures Chart</a>
+                (aka &#34;Red Flip Chart&#34;) accessible in your workspace, laboratories, and classroom(s).</li>
+                <br>
+                <li>Know your role during an emergency.</li>
+                <br>
+                <li>Get to know your Zone Captain and the Zone Crew members in your area.</li>
+                <br>
+                <li>Know evacuation routes and the pre-designated assembly areas for the buildings you are in most frequently.</li>
+                <br>
+			</ul>
+			<b> Faculty members should be prepared to direct their students to assembly areas in the event of an emergency.</b><br>
+			<ul>
+                <li>Know the emergency plan and continuity/recovery plan for your department.</li>
+                <br>
+                <li>Sign up to receive zotALERT text messages at <a href="http://www.oit.uci.edu/zotalert">www.oit.uci.edu/zotalert</a></li>
+                <br>
+                <li>Have an emergency kit in your office, in your car, and at home.</li>
+                <br>
+                <li>Contact the campus Emergency Services Manager at x4-7147 if you are interested in a preparedness presentation for your department.</li>
+                <br>
+                <li>Get involved on campus.
+                    <ul><br>
+                        <li>Become a Zone Crew member. Contact your Zone Captain and visit <a href="http://police.uci.edu/em/ZoneCrew.html">
+                        http://police.uci.edu/em/ZoneCrew.html</a> for more information.</li>
+                        <br>
+			            <li>Become a Campus Search and Rescue (CSAR) Team Member. Visit <a href="http://www.police.uci.edu/em/csar.html">www.police.uci.edu/em/csar.html</a>
+			            for training sessions and more information.</li>
+			            <br>
+			            <li>Become First Aid and CPR trained. The ARC offers free or low cost classes conducted by the American Red Cross.
+			            Go to <a href="http://www.campusrec.uci.edu">www.campusrec.uci.edu</a>, Classes and Clinics for details.</li>
+                    </ul>
+                </li>
+			</ul>
 
-    <!-- Dialer Home -->
-    <string name="title_activity_emergency_info">EmergencyInfoActivity</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_dialer">DialerActivity</string>
-    <string name="title_activity_active_shooter">ActiveShooterActivity</string>
-    <string name="title_activity_violence">ViolenceActivity</string>
-    <string name="title_activity_evacuation_disabilities">EvacuationDisabilitiesActivity</string>
-    <string name="title_activity_suspicious_package">SuspiciousPackageActivity</string>
-    <string name="title_activity_utility_failure">UtilityFailureActivity</string>
-    <string name="title_activity_medical_emergency">MedicalEmergencyActivity</string>
-    <string name="title_activity_bomb_threat">BombThreatActivity</string>
-    <string name="title_activity_evacuation">EvacuationActivity</string>
-    <string name="title_activity_hazardous_material">HazardousMaterialActivity</string>
-    <string name="title_activity_hazardous_material_shelter">HazardousMaterialShelterActivity</string>
-    <string name="title_activity_earthquake">EarthquakeActivity</string>
-    <string name="title_activity_search">SearchActivity</string>
-    <string name="title_activity_map">MapActivity</string>
-
-    <!-- Search Person -->
-    <string name="call_this_person">Call</string>
-    <string name="title_activity_person_info">PersonInfoActivity</string>
-    <string name="title_activity_fire">FireActivity</string>
-    <string name="title_activity_emergency_preparedness">EmergencyPreparednessActivity</string>
-    <string name="title_activity_persons_in_distress">PersonsInDistressActivity</string>
-    <string name="title_activity_roles_expectations">RolesExpectationsActivity</string>
-    <string name="title_activity_student_expectations">StudentExpectationsActivity</string>
-    <string name="title_activity_faculty_expectations">FacultyExpectationsActivity</string>
-    <string name="title_activity_department_info">DepartmentInfoActivity</string>
-    <string name="title_activity_building_info">BuildingInfoActivity</string>
-    <string name="title_activity_department_list_item">MainActivity</string>
-    <string name="title_activity_person_list_item">PersonListItemActivity</string>
-    <string name="title_activity_emergency_procedure">EmergencyProcedureActivity</string>
-    <string name="title_activity_emergency">EmergencyActivity</string>
-    <string name="title_activity_services_info">ServicesInfoActivity</string>
-    <string name="title_activity_fragment_stack_support">FragmentStackSupport</string>
+			]]>
+    </string>
     
     <!-- About Us -->
     <string name="title_activity_about_us">About Us</string>
-    <string name="about_us_version">Version 1.0</string>
-    <string name="about_us_sponsors"><b>Sponsors:</b>\r\nAnne Widney\r\n<i>UCIPD Business Continuity Planner</i>\r\n\r\nGregory Gallardo\r\n<i>UCI Facilities Manager - Calit2</i>\r\n\r\nTony Soeller\r\n<i>Computer Support - UCI OIT</i></string>
+    <string name="about_us_sponsors"><b>Sponsors:</b>\r\nAnne Widney\r\n<i>UCIPD Emergency Services Manager</i>\r\n\r\nGregory Gallardo\r\n<i>UCI Facilities Manager - Calit2</i>\r\n\r\nTony Soeller\r\n<i>Computer Support - UCI OIT</i></string>
     
-    <string name="about_us_team_2x2"><b>Android Version Developed By:</b> \r\nHoriya Ameen\r\nMichael Kunisaki\r\nSheena Perea\r\nDerick Tran</string>
+    <string name="about_us_team_2x2"><b>Developers:</b> \r\nHoriya Ameen\r\nMichael Kunisaki\r\nSheena Perea\r\nDerick Tran\r\nSarah Tracy</string>
 	<string name="about_us_questions"><b>For questions/comments, select below</b></string>
-	<string name="about_us_general_inquries">General Inquries</string>
+	<string name="about_us_general_inquiries">General Inquiries</string>
 	<string name="about_us_bug_report">Bug Report</string>
+    <string name="abbrBuilding">Building Abbreviation</string>
 </resources>

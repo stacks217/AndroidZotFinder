@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="edu.uci.zotfinder"
+    package="edu.uci.ZotFinder"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -10,26 +10,17 @@
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <!-- <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" /> -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <permission
-        android:name="edu.uci.zotfinder.permission.MAPS_RECEIVE"
+        android:name="edu.uci.ZotFinder.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="edu.uci.zotfinder.permission.MAPS_RECEIVE" />
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-    <!--
-         The following two permissions are not required to use
-	     Google Maps Android API v2, but are recommended.
-    -->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -38,7 +29,8 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/zotfindericon"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyD6Fxr8ZPheZAs1bnCDr12-RPga9Od2dSM" />
@@ -46,11 +38,11 @@
              android:name="com.google.android.gms.version"
              android:value="@integer/google_play_services_version" />
         <activity
-            android:name="edu.uci.zotfinder.SplashScreenActivity"
+            android:name=".activity.MainActivity"
             android:clearTaskOnLaunch="true"
             android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" >
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -58,65 +50,50 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="edu.uci.zotfinder.MainActivity"
+            android:name=".activity.SearchActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="edu.uci.zotfinder.DialerActivity"
-            android:label="@string/title_activity_dialer"
+            android:name=".activity.PersonInfoActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="edu.uci.zotfinder.SearchActivity"
-            android:label="@string/title_activity_search"
+            android:name=".activity.DepartmentInfoActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="edu.uci.zotfinder.PersonInfoActivity"
-            android:label="@string/title_activity_person_info"
+            android:name=".activity.BuildingInfoActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="edu.uci.zotfinder.StudentExpectationsActivity"
-            android:label="@string/title_activity_student_expectations"
+            android:name=".activity.EmergencyProcedureActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="edu.uci.zotfinder.FacultyExpectationsActivity"
-            android:label="@string/title_activity_faculty_expectations"
+            android:name=".activity.EmergencyActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity
+            android:name=".activity.DialerActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity
+            android:name=".activity.ServicesInfoActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="edu.uci.zotfinder.DepartmentInfoActivity"
-            android:label="@string/title_activity_department_info"
+            android:name=".activity.ExpectationsActivity"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="edu.uci.zotfinder.BuildingInfoActivity"
-            android:label="@string/title_activity_building_info"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="edu.uci.zotfinder.EmergencyProcedureActivity"
-            android:label="@string/title_activity_emergency_procedure"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="edu.uci.zotfinder.EmergencyActivity"
-            android:label="@string/title_activity_emergency"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="edu.uci.zotfinder.ServicesInfoActivity"
-            android:label="@string/title_activity_services_info"
-            android:screenOrientation="portrait" >
-        </activity>
-        <activity
-            android:name="edu.uci.zotfinder.AboutUsActivity"
+            android:name=".activity.AboutUsActivity"
             android:label="@string/title_activity_about_us"
             android:screenOrientation="portrait" >
         </activity>
+        <service android:name=".service.DatabaseBuilderService"/>
     </application>
 
 </manifest>

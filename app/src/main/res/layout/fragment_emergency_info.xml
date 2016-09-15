@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <!-- Top 5 Emergencies -->
+    <TextView
+        android:id="@+id/mostCommonEmergencyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/top_emergencies"
+        android:textSize="@dimen/font_size"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/topEmergencyGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="5"
+        android:stretchMode="columnWidth"
+        android:gravity="center"/>
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/R1Layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_weight="1">-->
+            <!--&lt;!&ndash; Active Shooter &ndash;&gt;-->
+            <!--<Button-->
+                <!--android:id="@+id/topActiveShooterButton"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/mostCommonEmergencyTextView"-->
+                <!--android:gravity="center"-->
+                <!--android:background="@drawable/active_shooter_top"-->
+                <!--android:onClick="activeShooterClicked"/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/topActiveShooterText"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/active_shooter"-->
+                <!--android:textSize="@dimen/button_text_size"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:onClick="activeShooterClicked"/>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_weight="1">-->
+            <!--&lt;!&ndash; Earthquake &ndash;&gt;-->
+            <!--<Button-->
+                <!--android:id="@+id/topEarthquakeButton"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/mostCommonEmergencyTextView"-->
+                <!--android:layout_toRightOf="@+id/topActiveShooterButton"-->
+                <!--android:gravity="center"-->
+                <!--android:background="@drawable/earthquake_top"-->
+                <!--android:onClick="earthquakeClicked"  />-->
+            <!--<TextView-->
+                <!--android:id="@+id/topEarthquakeText"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/earthquake"-->
+                <!--android:textSize="@dimen/button_text_size"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:onClick="earthquakeClicked" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_weight="1">-->
+            <!--&lt;!&ndash; Emergency Preparedness &ndash;&gt;-->
+            <!--<Button-->
+                <!--android:id="@+id/topEmergencyPreparednessButton"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/mostCommonEmergencyTextView"-->
+                <!--android:layout_toRightOf="@+id/topEarthquakeButton"-->
+                <!--android:gravity="center"-->
+                <!--android:background="@drawable/emergency_preparedness_top"-->
+                <!--android:onClick="emergencyPreparednessClicked" />-->
+            <!--<TextView-->
+                <!--android:id="@+id/topEmergencyPreparednessText"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/emergency_preparedness"-->
+                <!--android:textSize="@dimen/button_text_size"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:onClick="emergencyPreparednessClicked" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_weight="1">-->
+            <!--&lt;!&ndash; Fire &ndash;&gt;-->
+            <!--<Button-->
+                <!--android:id="@+id/topFireButton"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/mostCommonEmergencyTextView"-->
+                <!--android:layout_toRightOf="@id/topEmergencyPreparednessButton"-->
+                <!--android:gravity="center"-->
+                <!--android:background="@drawable/fire_top"-->
+                <!--android:onClick="fireClicked"  />-->
+            <!--<TextView-->
+                <!--android:id="@+id/topFireText"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/fire"-->
+                <!--android:textSize="@dimen/button_text_size"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:onClick="fireClicked" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_weight="1">-->
+            <!--&lt;!&ndash; Persons in Distress&ndash;&gt;-->
+            <!--<Button-->
+                <!--android:id="@+id/topPersonsInDistressButton"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/mostCommonEmergencyTextView"-->
+                <!--android:layout_toRightOf="@+id/topFireButton"-->
+                <!--android:gravity="center"-->
+                <!--android:background="@drawable/persons_in_distress_top"-->
+                <!--android:onClick="personsInDistressClicked"/>-->
+            <!--<TextView-->
+                <!--android:id="@+id/topPersonsInDistressText"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/persons_in_distress"-->
+                <!--android:textSize="@dimen/button_text_size"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:onClick="personsInDistressClicked"/>-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+    <!-- Gray Bar -->
+    <View
+    android:id="@+id/greyLine"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@android:color/darker_gray" />
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/emergencyGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="90dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"/>
+</LinearLayout>

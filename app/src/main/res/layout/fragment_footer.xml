@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/uci_blue"
+    android:elevation="4dp"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/mapFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/map_icon"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/emergencyFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/emergency_icon"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/dialerFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dialer_icon"
+        android:layout_weight="1"/>
+
+</LinearLayout>

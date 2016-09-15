@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="black_overlay">#80000000</color>
     <color name="holo_dark">#ff000000</color>
     <color name="light_gray">#D3D3D3</color>
     <color name="black">#000000</color>
@@ -10,4 +11,7 @@
     <color name="radiant_red">#8B0000</color>
     <color name="light_red">#CD5C5C</color>
     <color name="hyperlink">#00F0FF</color>
+    <color name="uci_gold">#E0B434</color>
+    <color name="uci_blue">#042B8D</color>
+    <color name="dialer_background_blue">#3C6D9E</color>
 </resources>
