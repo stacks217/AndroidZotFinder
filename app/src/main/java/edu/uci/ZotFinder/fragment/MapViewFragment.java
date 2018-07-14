@@ -1,6 +1,7 @@
 package edu.uci.ZotFinder.fragment;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -88,8 +89,8 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
                 mMap = googleMap;
                 mMap.setOnMarkerClickListener(MapViewFragment.this);
                 //sets current location
-                double[] d = getLocation();
-                currentLocation = new LatLng(d[0], d[1]);
+//                double[] d = getLocation();
+//                currentLocation = new LatLng(d[0], d[1]);
 
                 //add uci marker and set zoom
                 if (mMap != null) {
@@ -99,7 +100,6 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
                     mMap.getUiSettings().setCompassEnabled(true);
                     mMap.getUiSettings().setMyLocationButtonEnabled(true);
                     mMap.getUiSettings().setAllGesturesEnabled(true);
-                    mMap.setMyLocationEnabled(true);
                     addMarkers();
 
                     Bundle extras = getActivity().getIntent().getExtras();
@@ -142,21 +142,10 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
         setHasOptionsMenu(true);
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        plotPointFromExtras();
-    }
-
     private void plotPointFromExtras() {
         Bundle extras = getActivity().getIntent().getExtras();
 
-        if (extras != null) {
-            if (mMap == null) {
-                FragmentManager fragmentManager = getChildFragmentManager();
-                SupportMapFragment mapFragment = (SupportMapFragment) fragmentManager.findFragmentById(R.id.map);
-                mMap = mapFragment.getMap();
-            }
+        if (extras != null && mMap != null) {
             int type = extras.getInt("type");
             if (type == 1) {
                 float latitude = extras.getFloat("buildingLatitude");
@@ -269,7 +258,7 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
             return false;
         }
         if(itemTitle.equals("Directions")){
-            if(hasLocationEnabled() && destinationPoint!=null){
+            if(hasLocationEnabled()){
                 findDirections(destinationPoint);
             }
             return false;
@@ -287,7 +276,7 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
         if (PackageManager.PERMISSION_GRANTED != permissionCheck) {
             if (!ActivityCompat.shouldShowRequestPermissionRationale(getActivity(), android.Manifest.permission.ACCESS_FINE_LOCATION)) {
                 new AlertDialog.Builder(getActivity())
-                        .setMessage("Location permission is needed to show directions")
+                        .setMessage("Location permission is needed to show directions. The ZotFinder app uses GPS/location information to assist with mapping and directions related to the use of the wayfinding services of the app. The University of California Irvine does not save or store this information.")
                         .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
@@ -311,6 +300,8 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
         }
         if(!directionsToggle){
             // Getting URL to the Google Directions API given start point and end point
+            findLocation(false);
+            if (xy == null) return;
             String url = getDirectionsUrl(currentLocation, xy);
 
             DownloadTask downloadTask = new DownloadTask();
@@ -318,6 +309,7 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
             // Start downloading json data from Google Directions API
             downloadTask.execute(url);
             directionsToggle = true;
+            mMap.setMyLocationEnabled(true);
         }
         else {
             if (polyline != null) {
@@ -341,7 +333,6 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
                 } else {
                     Toast.makeText(getActivity(), "Need location permission to find directions", Toast.LENGTH_LONG).show();
                 }
-                return;
             }
 
             // other 'case' lines to check for other
@@ -353,7 +344,6 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
     //LatLng origin - coordinates of starting point
     //LatLng dest - coordinates of ending point
     private String getDirectionsUrl(LatLng origin,LatLng dest){
-
         // Origin of route
         // lat and long of starting point
         String str_origin = "origin="+origin.latitude+","+origin.longitude;
@@ -557,13 +547,17 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
 
     //Finds the current location of the user
     //sets the global LatLng coordinate:"currentLocation"
-    public void findLocation(View v){
+    public void findLocation(boolean animateToLocation){
         double[] d = getLocation();
         currentLocation = new LatLng(d[0], d[1]);
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(currentLocation, 15));
+        mMap.addMarker(new MarkerOptions().position(currentLocation).title("Current location"));
+        if (animateToLocation) {
+            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(currentLocation, 15));
+        }
     }
 
     //Uses system's location service to provide an array of 2 doubles that define the Lat and Long of current location
+    @SuppressLint("MissingPermission")
     public double[] getLocation() {
         LocationManager lm = (LocationManager) getActivity().getSystemService(Context.LOCATION_SERVICE);
         List<String> providers = lm.getProviders(true);

@@ -39,8 +39,7 @@ public class SearchPersonTask extends AsyncTask<String, Void, List<HashMap<Strin
     //return true = one person
     public List<HashMap<String, String>> personSearchResultType(String inputValue) throws InterruptedException, ExecutionException {
         String input = inputValue;
-        String url = "http://directory.uci.edu/index.php?basic_keywords=" + Uri.encode(input.replace(" ", "+"), "+") + "&modifier=Starts+With&basic_submit=Search&checkbox_employees=Employees&form_type=basic_search";
-        Log.d("Sarah", url);
+        String url = "https://directory.uci.edu/index.php?basic_keywords=" + Uri.encode(input.replace(" ", "+"), "+") + "&modifier=Starts+With&basic_submit=Search&checkbox_employees=Employees&form_type=basic_search";
         String output = searchActivity.retrieveDirectoryResult(url);
         if(output.contains("Your search"))
             return readMultipleResultStream(output, inputValue);

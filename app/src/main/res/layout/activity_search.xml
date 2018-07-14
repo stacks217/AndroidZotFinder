@@ -29,7 +29,14 @@
             android:textOff="Building"
             android:textOn="Building"
             android:layout_weight="1"/>
-         <ToggleButton
+	 </LinearLayout>
+    <LinearLayout
+        android:id="@+id/searchBoxLayoutBottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ToggleButton
             android:id="@+id/departmentTab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -37,7 +44,7 @@
             android:textOff="Department"
             android:textOn="Department"
             android:layout_weight="1"/>
-         <ToggleButton
+        <ToggleButton
             android:id="@+id/serviceTab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -45,7 +52,7 @@
             android:textOff="Service"
             android:textOn="Service"
             android:layout_weight="1"/>
-	 </LinearLayout>
+    </LinearLayout>
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

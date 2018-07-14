@@ -90,7 +90,6 @@ public class SearchActivity extends AppCompatActivity implements SearchView.OnQu
             }
         });
 
-		
 		BuildingDatabase buildingDatabase = new BuildingDatabase(this);
 		DepartmentDatabase departmentDatabase = new DepartmentDatabase(this);
 		ServicesDatabase servicesDatabase = new ServicesDatabase(this);
@@ -250,7 +249,7 @@ public class SearchActivity extends AppCompatActivity implements SearchView.OnQu
 	    	HashMap<String, String> listResults = null;
             listResults = (HashMap<String, String>) simpleAdapter.getItem(position);
             String uciNetId = listResults.get("ucinetid");
-            String urlToGetResult = "http://directory.uci.edu/index.php?uid=" + uciNetId + "&basic_keywords=" + uciNetId + "&modifier=Exact+Match&basic_submit=Search&checkbox_employees=Employees&form_type=basic_search";
+            String urlToGetResult = "https://directory.uci.edu/index.php?uid=" + uciNetId + "&basic_keywords=" + uciNetId + "&modifier=Exact+Match&basic_submit=Search&checkbox_employees=Employees&form_type=basic_search";
             new RetrieveDirectoryResult().execute(urlToGetResult, listResults.get("ucinetid"));
     	}
     	else if (searchChooser == 2){
