@@ -1,551 +1,165 @@
-100 Theory,-117.8556375,33.64424676,2,100 Theory,100,
-101 Academy,-117.8541278,33.64796816,2,101 Academy Way,101,
-110 Theory,-117.8560325,33.64371282,1,110 Theory,110,
-111 Theory,-117.8552455,33.64188779,2,111 Theory,111,
-131 Innovation,-117.8584034,33.64629606,2,131 Innovation,131,
-5171 California,-117.8543715,33.63965952,2,5171 California Ave,5171,
-5251 California,-117.851356,33.63817403,2,5251 California Ave,5251,
-Administrative Modular,-117.8462718,33.64204011,2,423 Physical Sciences Quad,423,
-Administrative Modular,-117.8461223,33.64188014,2,423 Physical Sciences Quad,423,
-Air Pollution Labs,-117.8538838,33.66482305,1,19172 Jamboree Rd,94,APL
-Aldrich Hall,-117.8412082,33.6484053,2,111 Gateway Quad,111,ALH
-Alumni House,-117.8369263,33.64617386,1,233 Social Sciences Quad,233,
-American Heart Association,-117.8305411,33.64838962,6,4600 Campus Dr,21,
-Anteater Instruction and Research Building,-117.837965,33.64284259,1,653 E Peltason Dr,653,AIR
-Anteater Parking Structure,-117.8377112,33.64313837,7,651 E Peltason Dr,APS,APS
-Anteater Recreation Center,-117.8279747,33.64335538,3,680 California Ave,680,ARC
-Arboretum,-117.8535902,33.66410321,2,19172 Jamboree Rd,96,ARBO
-ARC Court Building,-117.826784,33.6435104,3,682 California Ave,682,ARC
-Arc Field Building,-117.8260324,33.64218773,3,684 California Ave,684,ARC
-ARC Parking Structure,-117.8281785,33.64513479,7,670 California Ave,670,ARC
-ARC Storage Building,-117.8264474,33.64403181,2,California Ave,ARC,ARC
-Arroyo Vista - Alpha Chi Omega,-117.8269661,33.64702939,5,1024 Arroyo Dr,1024,AV
-Arroyo Vista - Alpha Phi,-117.8263219,33.64570727,5,1080 Arroyo Dr,1080,AV
-Arroyo Vista - Biology Haus,-117.8266745,33.64725715,5,1028 Arroyo Dr,1028,AV
-Arroyo Vista - Biology Haus,-117.8261579,33.6470344,5,1028 Arroyo Dr,1032,AV
-Arroyo Vista - Careers in Teaching,-117.8269523,33.64604953,5,1048 Arroyo Dr,1048,AV
-Arroyo Vista - Cesar Chavez,-117.8269203,33.64627882,5,1044 Arroyo Dr,1044,AV
-Arroyo Vista - Chemistry,-117.8271396,33.64553818,5,1058 Arroyo Dr,1058,AV
-Arroyo Vista - CHP,-117.82883,33.64697071,5,1002 Arroyo Dr,1002,AV
-Arroyo Vista - CHP,-117.82837,33.64714101,5,1006 Arroyo Dr,1006,AV
-Arroyo Vista - CHP,-117.8284016,33.64691255,5,1008 Arroyo Dr,1008,AV
-Arroyo Vista - CHP,-117.8281152,33.64689222,5,1010 Arroyo Dr,1010,AV
-Arroyo Vista - CHP,-117.8280798,33.64712282,5,1012 Arroyo Dr,1012,AV
-Arroyo Vista - Delta Delta Delta,-117.8266329,33.64626009,5,1042 Arroyo Dr,1042,AV
-Arroyo Vista - Delta Gamma,-117.8261717,33.64674945,5,1034 Arroyo Dr,1034,AV
-Arroyo Vista - Ele Si Rosa Parks,-117.8273999,33.64705883,5,1018 Arroyo Dr,1018,AV
-Arroyo Vista - Engineering Design,-117.8252243,33.64674193,5,1094 Arroyo Dr,1094,AV
-Arroyo Vista - First Year Experience Program,-117.8268086,33.64522008,5,1064 Arroyo Dr,1064,AV
-Arroyo Vista - First Year Experience Program,-117.8265571,33.64496119,5,1068 Arroyo Dr,1068,AV
-Arroyo Vista - First Year Experience Program,-117.8265226,33.64519429,5,1070 Arroyo Dr,1070,AV
-Arroyo Vista - FYEP,-117.8271044,33.6457695,5,1052 Arroyo Dr,1052,AV
-Arroyo Vista - FYEP,-117.8274262,33.6455611,5,1056 Arroyo Dr,1056,AV
-Arroyo Vista - Gamma Phi Beta,-117.8266688,33.64603136,5,1050 Arroyo Dr,1050,AV
-Arroyo Vista - Humanities House,-117.8255396,33.64653594,5,1090 Arroyo Dr,1090,AV
-Arroyo Vista - Humanities House,-117.8252574,33.646508,5,1092 Arroyo Dr,1092,AV
-Arroyo Vista - Information & Computer Science,-117.8263526,33.64548072,5,1074 Arroyo Dr,1074,AV
-Arroyo Vista - International Peace & Conflict House,-117.8269541,33.64726168,5,1022 Arroyo Dr,1022,AV
-Arroyo Vista - International Village,-117.8258693,33.64601113,5,1082 Arroyo Dr,1082,AV
-Arroyo Vista - International Village,-117.8256011,33.64598952,5,1084 Arroyo Dr,1084,AV
-Arroyo Vista - International Village,-117.8255777,33.64621958,5,1086 Arroyo Dr,1086,AV
-Arroyo Vista - International Village,-117.8258476,33.64624622,5,1088 Arroyo Dr,1088,AV
-Arroyo Vista - Kaleidoscope,-117.8273932,33.64578943,5,1054 Arroyo Dr,1054,AV
-Arroyo Vista - Kappa Alpha Theta,-117.8276529,33.64731011,5,1014 Arroyo Dr,1014,AV
-Arroyo Vista - Kappa Kappa Gamma,-117.8266804,33.64701707,5,1026 Arroyo Dr,1026,AV
-Arroyo Vista - Kappa Sigma,-117.8262086,33.64651193,5,1040 Arroyo Dr,1040,AV
-Arroyo Vista - Phi Gamma Delta,-117.8264937,33.64654055,5,1038 Arroyo Dr,1038,AV
-Arroyo Vista - Pi Beta Phi,-117.8264609,33.64676892,5,1036 Arroyo Dr,1036,AV
-Arroyo Vista - SAGE House,-117.8273658,33.64728986,5,1020 Arroyo Dr,1020,AV
-Arroyo Vista - Second Year Experience Program,-117.8268431,33.6449847,5,1066 Arroyo Dr,1066,AV
-Arroyo Vista - Sigma Alpha Epsilon,-117.826332,33.64720363,5,1030 Arroyo Dr,1030,AV
-Arroyo Vista - Sigma Phi Epsilon,-117.8276842,33.64708057,5,1016 Arroyo Dr,1016,AV
-Arroyo Vista - Social Ecology,-117.8260333,33.6456904,5,1078 Arroyo Dr,1078,AV
-Arroyo Vista - Student Life & Engagement,-117.8260693,33.64545721,5,1076 Arroyo Dr,1076,AV
-Arroyo Vista 1060,-117.827341,33.645319,5,1060 Arroyo Dr,1060,AV
-Arroyo Vista 1060,-117.827343,33.645233,5,1062 Arroyo Dr,1062,AV
-Arroyo Vista 1096/98,-117.825259,33.64625134,5,1096/1098 Arroyo Dr,1096/1098,AV
-Arroyo Vista Housing Office,-117.8290315,33.64673716,2,1000 Arroyo Dr,1000,AV
-Art%2C Culture and Technology,-117.8448326,33.65053791,1,727 Arts Quad,727,ACT
-Arts Computation Engineering,-117.8468779,33.64647338,1,522 Biological Sciences Quad,522,
-Arts Instruction and Technology Resource Center,-117.843902,33.64977312,1,714 Arts Quad,714,AITR
-Arts Studio,-117.8448649,33.65029618,1,722 Arts Quad,722,ART
-Arts Studio,-117.8446643,33.65013598,1,722 Arts Quad,722,ART
-Ayala Science Library,-117.8466335,33.64585385,1,520 Biological Sciences Quad,520,SLIB
-B.C.'s Cavern on the Green,-117.8444239,33.64590634,4,500 Biological Sciences Quad,500,
-Beall Center and University Art Gallery,-117.8443992,33.64987309,1,712 Arts Quad,712,
-Beall Center for Art and Technology,-117.8443386,33.65005366,1,712 Arts Quad,712,
-Beckman Center,-117.854171,33.64942886,6,100 Academy Way,80,
-Beckman Laser Institute,-117.8499592,33.64425895,1,817 Medical Sciences Quad,817,BLI
-Berk Hall Nursing Science,-117.8494845,33.64619994,1,802 Medical Sciences Quad,802,BH
-Bike Shop,-117.8427354,33.6507301,4,405 W Peltason Dr,9,
-Biological Sciences Administration,-117.846329,33.64374284,1,515 Biological Sciences Quad,515,
-Biological Sciences I (Steinhaus Hall),-117.8448309,33.64623148,1,502 Biological Sciences Quad,502,SH
-Biological Sciences II (McGaugh Hall),-117.844781,33.64524535,1,503 Biological Sciences Quad,503,MH
-Biological Sciences III,-117.8460757,33.64534684,1,519 Biological Sciences Quad,519,BS3
-Bonney Research Laboratory,-117.8461014,33.64638045,1,512 Biological Sciences Quad,512,BRL
-Bren Events Center,-117.8470163,33.64939292,6,901 Mesa Rd,901,
-Bren Hall,-117.8419057,33.64324002,1,314 Engineering Quad,314,DBH
-Bridge,-117.8509405,33.64513064,1,,825,
-Building Maintenance & Key Shop,-117.8484811,33.64239753,2,899 E Peltason Dr,899,
-Cafe Med,-117.8491012,33.6460389,4,800 Medical Sciences Quad,800,
-Calit2,-117.8411905,33.64287423,1,325 Engineering Quad,325,
-Camino del Sol 30001-30022,-117.8245926,33.64617035,5,30001-30022 Arroyo Dr,30001-30022,
-Camino del Sol 30100,-117.8249359,33.64601593,5,30100 Arroyo Dr,30100,
-Camino del Sol 30201-30222,-117.8243754,33.64574231,5,30201-30222 Arroyo Dr,30201-30222,
-Camino del Sol 30301-30322,-117.8249502,33.64580203,5,30301-30322 Arroyo Dr,30301-30322,
-Camino del Sol 30401-30416,-117.8248046,33.6453851,5,30401-30416 Arroyo Dr,30401-30416,
-Camino del Sol 30501-30522,-117.8251758,33.64570193,5,30501-30522 Arroyo Dr,30501-30522,
-Camino del Sol 30601-30622,-117.8249917,33.64505348,5,30601-30622 Arroyo Dr,30601-30622,
-Camino del Sol 30701-30722,-117.8252329,33.64544734,5,30701-30722 Arroyo Dr,30701-30722,
-Camino del Sol 30801-30822,-117.8252614,33.64479623,5,30801-30822 Arroyo Dr,30801-30822,
-Camino del Sol 30901-30922,-117.8254109,33.64527756,5,30901-30922 Arroyo Dr,30901-30922,
-Camino del Sol 31001-31016,-117.8256368,33.64459111,5,31001-31016 Arroyo Dr,31001-31016,
-Camino del Sol 31101-31122,-117.8255891,33.64510781,5,31101-31122 Arroyo Dr,31101-31122,
-Camino del Sol 31301-31322,-117.8257672,33.64493824,5,31301-31322 Arroyo Dr,31301-31322,
-Camino del Sol 31501-31522,-117.8260615,33.64485717,5,31501-31522 Arroyo Dr,31501-31522,
-Camino del Sol 32201-32222,-117.8241674,33.64514896,5,32201-32222 Arroyo Dr,32201-32222,
-Camino del Sol 32401-32422,-117.8240719,33.64468821,5,32401-32422 Arroyo Dr,32401-32422,
-Camino del Sol 32501-32516,-117.824503,33.64456101,5,32501-32516 Arroyo Dr,32501-32516,
-Camino del Sol 32601-32622,-117.8243996,33.64413194,5,32601-32622 Arroyo Dr,32601-32622,
-Camino del Sol 32701-32722,-117.8246912,33.64423505,5,32701-32722 Arroyo Dr,32701-32722,
-Camino del Sol 32801-32822,-117.8249443,33.64407654,5,32801-32822 Arroyo Dr,32801-32822,
-Camino del Sol 32901-32916,-117.8249675,33.64451377,5,32901-32916 Arroyo Dr,32901-32916,
-Camino del Sol 33201-33222,-117.8240024,33.64422912,5,33201-33222 Arroyo Dr,33201-33222,
-Camino del Sol 33401-33446,-117.824149,33.64352734,5,33401-33446 Arroyo Dr,33401-33446,
-Campus Village 1001,-117.8486713,33.64361165,5,1001 W Peltason Dr,1001,
-Campus Village 1003,-117.8488831,33.64375955,5,1003 W Peltason Dr,1003,
-Campus Village 1005,-117.8488972,33.64408409,5,1005 W Peltason Dr,1005,
-Campus Village 1007,-117.8487057,33.64427854,5,1007 W Peltason Dr,1007,
-Campus Village 1009,-117.848862,33.64444061,5,1009 W Peltason Dr,1009,
-Campus Village 1011,-117.8483705,33.64384211,5,1011 W Peltason Dr,1011,
-Campus Village 1013,-117.8481958,33.64367232,5,1013 W Peltason Dr,1013,
-Campus Village 1015,-117.8480312,33.64394068,5,1015 W Peltason Dr,1015,
-Campus Village 1017,-117.8478271,33.64408848,5,1017 W Peltason Dr,1017,
-Campus Village 1019,-117.8475395,33.6439478,5,1019 W Peltason Dr,1019,
-Campus Village 1021,-117.8474808,33.64368638,5,1021 W Peltason Dr,1021,
-Campus Village 1023,-117.8470779,33.643924,5,1023 W Peltason Dr,1023,
-Campus Village 1025,-117.8468077,33.64400789,5,1025 W Peltason Dr,1025,
-Campus Village 1027,-117.8466102,33.64416471,5,1027 W Peltason Dr,1027,
-Campus Village 1029,-117.8469119,33.64428378,5,1029 W Peltason Dr,1029,
-Campus Village 1031,-117.8471282,33.64442679,5,1031 W Peltason Dr,1031,
-Campus Village 1033,-117.8474915,33.64484528,5,1033 W Peltason Dr,1033,
-Campus Village 1035,-117.8475852,33.64458983,5,1035 W Peltason Dr,1035,
-Campus Village 1037,-117.8477903,33.64444178,5,1037 W Peltason Dr,1037,
-Campus Village 1039,-117.8478226,33.64482028,5,1039 W Peltason Dr,1039,
-Campus Village 1041,-117.8480274,33.64467136,5,1041 W Peltason Dr,1041,
-Campus Village 1043,-117.8477746,33.64519169,5,1043 W Peltason Dr,1043,
-Campus Village 1045,-117.8481102,33.64518355,5,1045 W Peltason Dr,1045,
-Campus Village 1047,-117.8483506,33.64502435,5,1047 W Peltason Dr,1047,
-Campus Village 1049,-117.848548,33.6451806,5,1049 W Peltason Dr,1049,
-Campus Village ALC House,-117.8478588,33.64369793,5,1057 W Peltason Dr,1057,
-Campus Village Community Center,-117.8469822,33.64479629,4,1061 W Peltason Dr,1061,
-Campus Village Housing Office,-117.8469116,33.64519596,2,1063 W Peltason Dr,1063,
-Campus Village Laundry Room,-117.8483096,33.64428332,4,1053 W Peltason Dr,1053,
-Campus Village Laundry Room,-117.8472009,33.64413306,4,1059 W Peltason Dr,1059,
-Campus Village Mail ,-117.8468752,33.64499764,2,1063 W Peltason Dr,1063,
-Campus Village Study Room,-117.8485341,33.64399508,5,1051 W Peltason Dr,1051,
-Campus Village Study Room,-117.8481885,33.64434468,4,1053 W Peltason Dr,1053,
-Campus Village Study Room,-117.8482187,33.64483395,4,1055 W Peltason Dr,1055,
-Center for the Neurobiology of Learning and Memory Annex,-117.8463967,33.64658212,1,516 Biological Sciences Quad,516,CNLMA
-Central Plant,-117.8468174,33.64790127,2,902 W Peltason Dr,902,CP
-Child Development Center,-117.8567311,33.66289867,6,19262 Jamboree Rd,90,CB
-Children's Center,-117.8313451,33.64454069,6,6533 Adobe Circle Rd South,6533,
-Choral Studio,-117.8440284,33.64959173,1,718 Arts Quad,718,
-Contemporary Arts Center,-117.8452513,33.65003639,1,721 Arts Quad,721,CAC
-Continuing Education 1,-117.834812,33.644982,1,510 E Peltason Dr,8,DCE
-Continuing Education 3,-117.837342,33.64576,1,510 E Peltason Dr,234,
-Continuing Education 4,-117.837307,33.645952,1,510 E Peltason Dr,232,
-Continuing Education 5,-117.836392,33.645213,1,510 E Peltason Dr,238,
-Continuing Education 6,-117.83599,33.645039,1,510 E Peltason Dr,236,
-Crawford Clubhouse,-117.8491979,33.64760685,3,919 W Peltason Dr,919,
-Crawford Hall,-117.8481124,33.64792455,3,903 W Peltason Dr,903,CH
-Cross-Cultural Center,-117.841856,33.64778408,4,103 Gateway Quad,103,CRCC
-Croul Hall,-117.8446483,33.64368719,1,417 Physical Sciences Quad,417,CRH
-Cyber A Cafe,-117.8446949,33.64980679,4,712 Arts Quad,712,
-Cyber Cafe,-117.8330498,33.64574989,4,3400 Verano Rd,3400,
-Disability Services Center,-117.8403969,33.64414584,1,313 Engineering Quad,313,DSC
-Drama Building,-117.8449479,33.64978933,1,715 Arts Quad,715,DRA
-Early Childhood Education Center,-117.8299628,33.64740896,6,501 California Ave,23,
-Education,-117.8358727,33.6472323,1,401 E Peltason Dr,3,EDUC
-Electrical Substation,-117.8498358,33.64030847,8,4666 Health Sciences Rd,40,
-Engineering Computing Trailers,-117.8401396,33.64401807,1,317 Engineering Quad,317,ECT
-Engineering Gateway,-117.8401441,33.6431992,1,321 Engineering Quad,321,EG
-Engineering Hall 3,-117.8411599,33.64365726,1,308 Engineering Quad,308,EH
-Engineering Laboratory Facility,-117.8396302,33.64375938,1,323 Engineering Quad,323,ELF
-Engineering Lecture Hall,-117.8407073,33.6444453,1,305 Engineering Quad,305,ELH
-Engineering Tower,-117.8411048,33.64470335,1,303 Engineering Quad,303,ET
-Environmental Health and Safety Services Facility,-117.8499494,33.63932279,2,4600 Health Sciences Rd,41,EHS
-Extended Day Center,-117.8307096,33.64462491,6,6537 Adobe Circle Rd South,6537,
-Facilities Management Annex,-117.8545823,33.66446033,2,19172 Jamboree Rd, ,
-Facilities Management Building,-117.8547859,33.66467301,2,19172 Jamboree Rd,92,FM
-Facilities Management Shop,-117.8546108,33.66375489,2,19182 Jamboree Rd,91,
-Faculty Research Facility,-117.8542559,33.66432463,1,19172 Jamboree Rd,95,FRF
-Farm School /  Red Barn,-117.8288745,33.64225112,2,626 California Ave,626,
-Gateway Study Center,-117.8417618,33.64744837,4,101 Gateway Quad,101,GC
-Gavin Herbert Eye Institute,-117.8522507,33.64172205,1,850 Health Sciences Rd,850,
-Gillespie Neuroscience Research Facility,-117.8512878,33.64405446,1,837 Medical Sciences Quad,837,GNRF
-Gottschalk Medical Plaza,-117.8510706,33.64688789,1,820 Medical Plaza Dr,820,
-Graduate Lounge,-117.8231623,33.64407249,4,40300 Arroyo Dr,40300,
-Graduate Villa,-117.8232098,33.64473739,4,29900 Arroyo Dr,29900,
-Greenhouse,-117.8453427,33.6472862,1,514 Biological Sciences Quad,514,
-Gross Hall,-117.8512871,33.64350444,1,845 Medical Sciences Quad,845,
-Grotowski Barn,-117.8282984,33.64212449,2,626 California Ave,626,
-Grounds Maintenance Facility,-117.848688,33.64279021,2,897 E Peltason Dr,897,
-Hewitt Research Hall,-117.851985,33.64348133,1,843 Medical Sciences Quad,843,HRH
-Humanities Gateway,-117.8445568,33.64816352,1,611 Humanities Quad,611,HG
-Humanities Hall,-117.8439865,33.64731527,1,601 Humanities Quad,601,HH
-Humanities Instructional Building,-117.8437598,33.6483866,1,610 Humanities Quad,610,HIB
-Humanities Instructional Building,-117.8442218,33.64873812,1,610 Humanities Quad,610,HIB
-Humanities Interim Classroom Facility,-117.846817,33.64688033,1,523 Humanities Quad,523,HICF
-Humanities Modular,-117.8443176,33.64713163,1,603 Humanities Quad,603,
-ICS Educational Technology Center and Research Facility,-117.840204,33.64431191,1,315 Engineering Quad,315,
-Infant Toddler Center,-117.8297658,33.64643883,6,535 California Ave,535,
-Infant Toddler Center 2,-117.8297619,33.64668848,6,533 Verano Rd,533,
-Information and Computer Science,-117.8417646,33.64427978,1,302 Engineering Quad,302,ICS
-Information and Computer Science 2,-117.8420216,33.64389669,1,304 Engineering Quad,304,ICS2
-Information and Computer Science 2,-117.8415264,33.64404042,1,304 Engineering Quad,304,ICS2
-Intercollegiate Athletic Building,-117.8454802,33.6481963,1,625 Humanities Quad,625,IAB
-Interfaith,-117.8397649,33.64419428,4,319 Engineering Quad,319,
-Interim Classroom Facility,-117.8399651,33.64443157,1,315 Engineering Quad,315,ICF
-Irvine Barclay Theater - Cheng Hall,-117.840743,33.64920376,6,4242 Campus Dr,1,
-Java City,-117.8410944,33.64340817,4,,,
-Joan Irvine Smith Hall,-117.8524571,33.64488747,1,835 Medical Sciences Quad,835,
-Krieger Hall,-117.8434887,33.64761414,1,600 Humanities Quad,600,KH
-KUCI Radio Station,-117.8470522,33.64657091,4,521 Biological Sciences Quad,521,
-Langson Library,-117.8410741,33.64712267,1,102 Gateway Quad,102,LLIB
-Leo Freedman Foundation Production Studio,-117.8456926,33.64974032,1,723 Arts Quad,723,
-Mailroom,-117.8545133,33.66481212,6,19172 Jamboree Rd,93,
-Maintenance Building,-117.8248281,33.64917266,2,28600 Arroyo Dr,28600,
-Maintenance Building,-117.8252033,33.63776878,2,64200 Arroyo Dr,64200,
-Medical Education Building,-117.8520975,33.64462445,1,836 Medical Sciences Quad,836,MEB
-Medical Sciences A,-117.8497961,33.64500732,1,813 Medical Sciences Quad,813,MS-A
-Medical Sciences A Annex,-117.8503923,33.64480869,1,819 Medical Sciences Quad,819,
-Medical Sciences A Annex Offices,-117.8499241,33.64480786,1,815 Medical Sciences Quad,815,
-Medical Sciences B,-117.8498565,33.64549605,1,811 Medical Sciences Quad,811,MS-B
-Medical Sciences C,-117.850448,33.64549175,1,821 Medical Sciences Quad,821,MS-C
-Medical Sciences Classroom Facility,-117.8523487,33.64534064,1,833 Medical Sciences Quad,833,
-Medical Sciences D%2C Cheney Building,-117.8510393,33.64548269,1,825 Medical Sciences Quad,825,MS-D
-Medical Sciences E,-117.8514888,33.64539598,1,827 Medical Sciences Quad,827,MS-E
-Medical Surge I,-117.8501311,33.64638452,1,810 Medical Plaza Dr,810,MS1
-Medical Surge II,-117.8500455,33.64684262,1,812 Medical Plaza Dr,812,MS2
-Mesa Arts Building,-117.8463582,33.65017024,1,4000 Mesa Rd,4000,MAB
-Mesa Court Aldea,-117.8444981,33.65324546,5,4073 Mesa Rd,4073,
-Mesa Court Arroyo,-117.8457842,33.65184387,5,4009 Mesa Rd,4009,
-Mesa Court Bahia,-117.8449328,33.65223636,5,4013 Mesa Rd,4013,
-Mesa Court Barranca,-117.843385,33.65304877,5,4067 Mesa Rd,4067,
-Mesa Court Brisa,-117.8440363,33.65068287,5,4029 Mesa Rd,4029,
-Mesa Court Camino,-117.8437466,33.65193084,5,4021 Mesa Rd,4021,
-Mesa Court Cascada,-117.8432011,33.65224236,5,4061 Mesa Rd,4061,
-Mesa Court Cielo,-117.8443972,33.65161437,5,4019 Mesa Rd,4019,
-Mesa Court Ciudad,-117.8435354,33.6514884,5,4025 Mesa Rd,4025,
-Mesa Court Commons,-117.8453445,33.65108394,4,4001 Mesa Rd,4001,
-Mesa Court Community Center,-117.8442975,33.65271942,4,4057 Mesa Rd,4057,
-Mesa Court Cuesta,-117.8442247,33.651925,5,4017 Mesa Rd,4017,
-Mesa Court Cumbre,-117.8433475,33.65093566,5,4037 Mesa Rd,4037,
-Mesa Court Estrella,-117.8439866,33.6522874,5,4041 Mesa Rd,4041,
-Mesa Court Hacienda,-117.8457927,33.65148184,5,4005 Mesa Rd,4005,
-Mesa Court Housing Office,-117.8452617,33.65297349,2,4053 Mesa Rd,4053,
-Mesa Court Isla,-117.8438514,33.65310282,5,4069 Mesa Rd,4069,
-Mesa Court Jardin,-117.8438118,33.65340919,5,4071 Mesa Rd,4071,
-Mesa Court La Mirada,-117.8458017,33.65209733,5,4011 Mesa Rd,4011,
-Mesa Court Lago,-117.8451744,33.65196912,5,4007 Mesa Rd,4007,
-Mesa Court Laguna,-117.8443443,33.65355904,5,4075 Mesa Rd,4075,
-Mesa Court Lluvia,-117.8456799,33.65263738,5,4047 Mesa Rd,4047,
-Mesa Court Loma,-117.8454614,33.65165135,5,4003 Mesa Rd,4003,
-Mesa Court Mail Room,-117.8440095,33.65283699,4,,,
-Mesa Court Mar,-117.8430349,33.65192526,5,4063 Mesa Rd,4063,
-Mesa Court Niebla,-117.8438291,33.65254584,5,4059 Mesa Rd,4059,
-Mesa Court Nubes,-117.8455377,33.65236308,5,4045 Mesa Rd,4045,
-Mesa Court Ondas,-117.8447967,33.65283508,5,4055 Mesa Rd,4055,
-Mesa Court Otero,-117.8434299,33.65057166,5,4035 Mesa Rd,4035,
-Mesa Court Palo,-117.8448393,33.65256462,5,4043 Mesa Rd,4043,
-Mesa Court Prado,-117.8438909,33.65104754,5,4027 Mesa Rd,4027,
-Mesa Court Puente,-117.8436336,33.65028908,5,4033 Mesa Rd,4033,
-Mesa Court Selva,-117.8448503,33.65349158,5,4077 Mesa Rd,4077,
-Mesa Court Sierra,-117.8445835,33.65210195,5,4015 Mesa Rd,4015,
-Mesa Court Sol,-117.8429721,33.65182106,5,4065 Mesa Rd,4065,
-Mesa Court Vereda,-117.8440387,33.65039221,5,4031 Mesa Rd,4031,
-Mesa Court Viento,-117.8440162,33.6514526,5,4023 Mesa Rd,4023,
-Mesa Court Vista,-117.8433394,33.65186823,5,4039 Mesa Rd,4039,
-Mesa Office Building,-117.846334,33.6512079,2,4004 Mesa Rd,4004,
-Mesa Parking Structure,-117.846605,33.65055561,7,4002 Mesa Rd,MPS,
-Middle Earth Administration,-117.8376176,33.6446071,2,529 East Peltason Dr,529,
-Middle Earth Aldor,-117.8375446,33.64390224,5,519 East Peltason Dr,519,
-Middle Earth Balin,-117.837627,33.64505544,5,541 East Peltason Dr,541,
-Middle Earth Brandywine Commons,-117.8390246,33.64562589,4,557 E Peltason Dr,557,
-Middle Earth Brandywine Student Center,-117.8391698,33.64541797,4,559 E Peltason Dr,559,
-Middle Earth Bucklebury,-117.8373155,33.64459911,5,531 East Peltason Dr,531,
-Middle Earth Calmindon,-117.8376289,33.64439562,5,527 East Peltason Dr,527,
-Middle Earth Crickhollow,-117.8362907,33.64464939,5,565 East Peltason Dr,565,
-Middle Earth Elrond,-117.8367831,33.64381216,5,513 E Peltason Dr,513,
-Middle Earth Evenstar,-117.8358482,33.6442887,5,569 East Peltason Dr,569,
-Middle Earth Gondolin,-117.8372001,33.644381,5,523 East Peltason Dr,523,
-Middle Earth Grey Havens,-117.8378284,33.64413699,5,525 East Peltason Dr,525,
-Middle Earth Harrowdale,-117.8376543,33.64536803,5,543 East Peltason Dr,543,
-Middle Earth Hobbiton,-117.8384047,33.64553233,5,555 East Peltason Dr,555,
-Middle Earth Isengard,-117.8384386,33.64473552,5,551 East Peltason Dr,551,
-Middle Earth Lorien,-117.8384101,33.64510736,5,553 East Peltason Dr,553,
-Middle Earth Mirkwood,-117.8388567,33.64496042,5,561 East Peltason Dr,561,
-Middle Earth Misty Mountain,-117.8380362,33.64534808,5,545 East Peltason Dr,545,
-Middle Earth Northcape,-117.8369221,33.64355774,5,515 E Peltason Dr,515,
-Middle Earth Northlands,-117.8368226,33.64522096,5,535 East Peltason Dr,535,
-Middle Earth Oakenshield,-117.8362765,33.64427873,5,571 East Peltason Dr,571,
-Middle Earth Pippin Commons,-117.8367968,33.64478199,4,533 East Peltason Dr,533,
-Middle Earth Quenya,-117.836178,33.64382275,5,509 E Peltason Dr,509,
-Middle Earth Rivendell,-117.8380449,33.64448027,5,549 East Peltason Dr,549,
-Middle Earth Rohan,-117.8372339,33.64374649,5,517 East Peltason Dr,517,
-Middle Earth Shadowfax,-117.8367501,33.64413426,5,511 E Peltason Dr,511,
-Middle Earth Shire,-117.8380096,33.64490732,5,547 East Peltason Dr,547,
-Middle Earth Snowbourn,-117.8371416,33.64409039,5,521 East Peltason Dr,521,
-Middle Earth Southcape,-117.8390832,33.64502899,5,563 East Peltason Dr,563,
-Middle Earth Valimar,-117.835796,33.64461821,5,567 East Peltason Dr,567,
-Middle Earth Whispering Wood,-117.8372805,33.64527157,5,539 East Peltason Dr,539,
-Middle Earth Woodhall,-117.8372147,33.6449538,5,537 East Peltason Dr,537,
-MRI 3T Trailer,-117.8521414,33.64525281,1,841 Medical Science Court,841,
-MRI 4T Trailer,-117.852343,33.64547461,1,832 Medical Sciences Quad,832,
-Multipurpose Academic and Administrative Building,-117.8369492,33.64707414,1,4302 Pereira Dr,2,MPAA
-Multipurpose Science & Technology Building,-117.8444223,33.64203733,1,415 Physical Sciences Quad,415,MSTB
-Music and Media Building,-117.8444649,33.64935062,1,726 Arts Quad,726,MM
-Natural Sciences I,-117.8457024,33.64443314,1,517 Biological Sciences Quad,517,NS1
-Natural Sciences II,-117.845269,33.64399964,1,402 Physical Sciences Quad,402,NS2
-Newkirk Alumni Center,-117.8461329,33.65237256,2,450 Alumni Ct,450,
-Newkirk Pavilion Clubhouse,-117.8484024,33.65146935,3,917 W Peltason Dr,917,
-Old Rec. Center/Preschool/ASP,-117.8331779,33.64603099,6,3300 Verano Rd,3300,
-Palo Verde 1100,-117.8351098,33.64277973,5,1100 Palo Verde Rd,1100,PV
-Palo Verde 1200,-117.8353479,33.64304074,5,1200 Palo Verde Rd,1200,PV
-Palo Verde 1300,-117.8355791,33.64296757,5,1300 Palo Verde Rd,1300,PV
-Palo Verde 1400,-117.8355533,33.64263941,5,1400 Palo Verde Rd,1400,PV
-Palo Verde 2100,-117.8351976,33.64230981,5,2100 Palo Verde Rd,2100,PV
-Palo Verde 2200,-117.8348591,33.64212987,5,2200 Palo Verde Rd,2200,PV
-Palo Verde 3100,-117.834383,33.64242,5,3100 Palo Verde Rd,3100,PV
-Palo Verde 3200,-117.834107,33.642687,5,3200 Palo Verde Rd,3200,PV
-Palo Verde 3300,-117.834492,33.642829,5,3300 Palo Verde Rd,3300,PV
-Palo Verde 4100,-117.833504,33.642261,5,4100 Palo Verde Rd,4100,PV
-Palo Verde 4200,-117.833505,33.642537,5,4200 Palo Verde Rd,4200,PV
-Palo Verde 4300,-117.833692,33.642745,5,4300 Palo Verde Rd,4300,PV
-Palo Verde 4400,-117.833852,33.642451,5,4400 Palo Verde Rd,4400,PV
-Palo Verde 5100,-117.834304,33.642072,5,5100 Palo Verde Rd,5100,PV
-Palo Verde 5200,-117.834576,33.641953,5,5200 Palo Verde Rd,5200,PV
-Palo Verde 5300,-117.834479,33.641739,5,5300 Palo Verde Rd,5300,PV
-Palo Verde 6100,-117.834031,33.641466,5,6100 Palo Verde Rd,6100,PV
-Palo Verde 6200,-117.833509,33.64156,5,6200 Palo Verde Rd,6200,PV
-Palo Verde 6300,-117.83385,33.641814,5,6300 Palo Verde Rd,6300,PV
-Palo Verde 7100,-117.8325893,33.6424041,5,7100 Palo Verde Rd,7100,PV
-Palo Verde 7100A,-117.832276,33.64213503,4,7100A Palo Verde Rd,7100A,PV
-Palo Verde 7200,-117.8324435,33.64197541,5,7200 Palo Verde Rd,7200,PV
-Palo Verde 7300,-117.8317684,33.64180957,5,7300 Palo Verde Rd,7300,PV
-Palo Verde 7400,-117.8313031,33.64207667,5,7400 Palo Verde Rd,7400,PV
-Palo Verde 7400A,-117.8310079,33.64184735,4,7400A Palo Verde Rd,7400A,PV
-Palo Verde 7500,-117.8311549,33.64164996,5,7500 Palo Verde Rd,7500,PV
-Palo Verde 7600,-117.8306331,33.64143229,5,7600 Palo Verde Rd,7600,PV
-Palo Verde 7600A,-117.8304206,33.64131278,4,7600A Palo Verde Rd,7600A,PV
-Palo Verde 8100,-117.8327199,33.64157986,5,8100 Palo Verde Rd,8100,PV
-Palo Verde 8100A,-117.8326547,33.641317,4,8100A Palo Verde Rd,8100A,PV
-Palo Verde 8200,-117.8329444,33.64114674,5,8200 Palo Verde Rd,8200,PV
-Palo Verde 8300,-117.8323991,33.641081,5,8300 Palo Verde Rd,8300,PV
-Palo Verde 8300A,-117.8324871,33.64074928,4,8300A Palo Verde Rd,8300A,PV
-Palo Verde 8400,-117.8319009,33.64133557,5,8400 Palo Verde Rd,8400,PV
-Palo Verde 8500,-117.8317858,33.64085919,5,8500 Palo Verde Rd,8500,PV
-Palo Verde 8600,-117.8313541,33.64068561,5,8600 Palo Verde Rd,8600,PV
-Palo Verde 8700,-117.8308519,33.64094287,5,8700 Palo Verde Rd,8700,PV
-Palo Verde 8700A,-117.8305967,33.64068586,4,8700A Palo Verde Rd,8700A,PV
-Palo Verde 8800,-117.8306028,33.64036831,5,8800 Palo Verde Rd,8800,PV
-Palo Verde Community Building,-117.8329285,33.64212162,6,7000 Palo Verde Rd,7000,PV
-Palo Verde Housing Office,-117.8331386,33.64192484,2,7000 Palo Verde Rd,7000,PV
-Palo Verde Laundry,-117.834039,33.64220062,4,, ,PV
-Palo Verde Laundry,-117.8347265,33.64235645,4,, ,PV
-Palo Verde Lounge,-117.8346141,33.64244519,4,, ,PV
-Palo Verde Study Room,-117.8347721,33.64247064,4,, ,PV
-Palo Verde Tower,-117.8346281,33.64231144,4,, ,PV
-Parkview Classroom Building,-117.8427945,33.64449473,1,403 Physical Sciences Quad,403,PCB
-Phoenix Grille,-117.8405844,33.64557154,4,204 Social Sciences Quad,204,
-Physical Sciences Classroom Building,-117.8434678,33.64339949,1,413 Physical Sciences Quad,413,PSCB
-Physical Sciences High Bay,-117.8452267,33.64364617,1,404 Physical Sciences Quad,404,
-Physical Sciences Lecture Hall,-117.8439506,33.64339133,1,411 Physical Sciences Quad,411,PSLH
-Plumwood House,-117.8511089,33.64482726,1,829 Medical Sciences Quad,829,PH
-Post Box Center,-117.8291182,33.6469877,4,, ,
-Production Studio,-117.845807,33.64966692,1,723 Arts Quad,723,
-Psychiatry,-117.8539322,33.66426823,1,19172 Jamboree Rd, ,
-Public Services,-117.8347884,33.64644378,2,410 E Peltason Dr,7,PSB
-Puerta del Sol 10101-10443,-117.8337028,33.64771344,5,10101-10443 Adobe Circle Rd North,10101-10443,
-Puerta del Sol 10143-10476,-117.8325698,33.64792505,5,10143-10476 Adobe Circle Rd North,10143-10476,
-Puerta del Sol 11101-11429,-117.8313336,33.64823711,5,11101-11429 Adobe Circle Rd North,11101-11429,
-Qureshey Research Laboratory,-117.8457488,33.6465726,1,506 Biological Sciences Quad,506,QRL
-Receiving,-117.85512,33.66406852,2,19182 Jamboree Rd,91,
-Reines Hall,-117.843278,33.64415409,1,401 Physical Sciences Quad,401,FRH
-Robert Cohen Theater,-117.8455184,33.64929517,1,713 Arts Quad,713,
-Rockwell Engineering Center,-117.8406119,33.6438986,1,311 Engineering Quad,311,REC
-Rowland Hall,-117.8441291,33.64450317,1,400 Physical Sciences Quad,400,RH
-Santiago 1001-1008,-117.8363051,33.64195566,5,1001-1008 Gabrielino Drive,1001-1008,
-Santiago 101-108,-117.8371163,33.64206974,5,101-108 Gabrielino Drive,101-108,
-Santiago 1101-1108,-117.8364828,33.64214712,5,1101-1108 Gabrielino Drive,1101-1108,
-Santiago 201-208,-117.8367695,33.64199695,5,201-208 Gabrielino Drive,201-208,
-Santiago 301-311,-117.8372119,33.64170643,5,301-311 Gabrielino Drive,301-311,
-Santiago 401-411,-117.8368016,33.64175903,5,401-411 Gabrielino Drive,401-411,
-Santiago 501-511,-117.837243,33.6414667,5,501-511 Gabrielino Drive,501-511,
-Santiago 601-611,-117.8368759,33.64149299,5,601-611 Gabrielino Drive,601-611,
-Santiago 701-708,-117.8365882,33.64152743,5,701-708 Gabrielino Drive,701-708,
-Santiago 801-808,-117.8363023,33.64156338,5,801-808 Gabrielino Drive,801-808,
-Santiago 901-908,-117.8360982,33.64175124,5,901-908 Gabrielino Drive,901-908,
-Schneiderman Lecture Hall,-117.844653,33.64557329,1,501 Biological Sciences Quad,501,HLSH
-School of Business II,-117.8380609,33.64665481,1,221 Social Sciences Quad,221,SB2
-School of Law,-117.8359048,33.64677029,1,401 E Peltason Dr,4,LAW
-Sculpture%2C Ceramic Studios%2C Nixon Theatre,-117.84434,33.65031468,1,720 Arts Quad,720,SCS
-Sculpture%2C Ceramic Studios%2C Nixon Theatre,-117.844287,33.65032632,1,720 Arts Quad,720,SCS
-Sculpture%2C Ceramic Studios%2C Nixon Theatre,-117.8444627,33.65044999,1,720 Arts Quad,720,SCS
-Social and Behavioral Sciences Gateway,-117.8391021,33.64739003,1,214 Social Sciences Quad,214,SBSG
-Social Ecology I,-117.8387752,33.64615522,1,210 Social Sciences Quad,210,SE
-Social Ecology II,-117.8389458,33.64657671,1,215 Social Sciences Quad,215,SE2
-Social Science Hall,-117.8400542,33.64623075,1,200 Social Sciences Quad,200,SSH
-Social Science Lab,-117.8399943,33.64592161,1,202 Social Sciences Quad,202,SSL
-Social Science Lecture Hall,-117.8397105,33.64724099,1,212 Social Sciences Quad,212,SSLH
-Social Science Parking Structure,-117.8373475,33.64750722,7,4300 Campus Dr,SSPS,SSPS
-Social Science Plaza A,-117.8395242,33.64692684,1,211 Social Sciences Quad,211,SSPA
-Social Science Plaza B,-117.8390489,33.64695627,1,213 Social Sciences Quad,213,SSPB
-Social Science Tower,-117.8402567,33.64645799,1,201 Social Sciences Quad,201,SST
-Social Science Trailer,-117.8402623,33.64701742,1,203 Social Sciences Quad,203,SSTR
-Social Science Trailer,-117.8402082,33.6469412,1,203 Social Sciences Quad,203,SSTR
-Sprague Hall,-117.852026,33.64405977,1,839 Medical Sciences Quad,839,SPH
-Student Center,-117.8421421,33.64900794,4,113 Gateway Quad,113,SC
-Student Center,-117.8426741,33.64865964,4,113 Gateway Quad,113,SC
-Student Center Parking Structure,-117.8418615,33.65009072,7,4000 Campus Dr,SCPS,SCPS
-Student Health Center,-117.8358928,33.64555651,4,501 E Peltason Dr,5,SHC
-Student Health Center II,-117.8349032,33.64561953,6,500 E Peltason Dr,6,
-Student Services I,-117.8423616,33.64791816,4,105 Gateway Quad,105,SS1
-Studio Four,-117.8456735,33.65013924,1,725 Arts Quad,725,STU4
-Tamkin Student Lecture Hall,-117.8519793,33.6455275,1,831 Medical Sciences Quad,831,
-The Lodge,-117.8245494,33.64493593,4,33000 Arroyo Dr,33000,
-Thermal Energy Storage Tank,-117.8461638,33.64838746,2,900 W Peltason Dr,900,
-Track and Field House,-117.8493636,33.64990164,3,907 W Peltason Dr,907,
-Trevor Theatre,-117.845191,33.64946593,1,711 Arts Quad,711,CTT
-Undergraduate Lounge 1,-117.8256291,33.63937394,4,63300 Arroyo Dr,63300,
-Undergraduate Lounge 2,-117.8233289,33.64164743,4,61700 Arroyo Dr,61700,
-Unit 1-4 Maintenance Shop,-117.8315958,33.64570833,2,5400 Verano Rd,5400,
-University Club,-117.8425046,33.64293114,2,801 E Peltason Dr,801,UN-CLB
-University Extension A / Women's Opportunities Center,-117.8373236,33.64649526,1,231 Social Sciences Quad,231,UNEX
-University Extension B,-117.8374443,33.64625455,1,230 Social Sciences Quad,230,UNEX
-University Extension C,-117.8372806,33.64594995,1,232 Social Sciences Quad,232,UNEX
-University Extension D,-117.8372973,33.64578978,1,234 Social Sciences Quad,234,UNEX
-University Extension ESL Offices,-117.8363648,33.64520846,1,238 Social Sciences Quad,238,UNEX
-University Extension H,-117.8359834,33.64504158,1,236 Social Sciences Quad,236,UNEX
-University Tower,-117.8382731,33.65077397,2,,4199,UT
-Verano 100,-117.8339886,33.64624945,5,100 Verano Rd,100,
-Verano 1000,-117.833608,33.64679844,5,1000 Verano Rd,1000,
-Verano 1100,-117.8333744,33.6469866,5,1100 Verano Rd,1100,
-Verano 1200,-117.8331991,33.647235,5,1200 Verano Rd,1200,
-Verano 1300,-117.8329246,33.64729997,5,1300 Verano Rd,1300,
-Verano 1400,-117.8326542,33.64731894,5,1400 Verano Rd,1400,
-Verano 1500,-117.8324433,33.64710116,5,1500 Verano Rd,1500,
-Verano 1600,-117.8326884,33.64688985,5,1600 Verano Rd,1600,
-Verano 1700,-117.832933,33.64671891,5,1700 Verano Rd,1700,
-Verano 1800,-117.8331718,33.64653897,5,1800 Verano Rd,1800,
-Verano 1900,-117.8324945,33.64654481,5,1900 Verano Rd,1900,
-Verano 200,-117.8339814,33.6458185,5,200 Verano Rd,200,
-Verano 2000,-117.8322376,33.64663793,5,2000 Verano Rd,2000,
-Verano 2100,-117.8318382,33.64663634,5,2100 Verano Rd,2100,
-Verano 2200,-117.831864,33.64627019,5,2200 Verano Rd,2200,
-Verano 2300,-117.8321568,33.64622949,5,2300 Verano Rd,2300,
-Verano 2400,-117.8325231,33.64626283,5,2400 Verano Rd,2400,
-Verano 2500,-117.832816,33.64555533,5,2500 Verano Rd,2500,
-Verano 2600,-117.8324237,33.64554952,5,2600 Verano Rd,2600,
-Verano 2700,-117.8321101,33.645472,5,2700 Verano Rd,2700,
-Verano 2800,-117.8322131,33.64525562,5,2800 Verano Rd,2800,
-Verano 2900,-117.8321638,33.6449782,5,2900 Verano Rd,2900,
-Verano 300,-117.8334103,33.64572405,5,300 Verano Rd,300,
-Verano 3000,-117.8325365,33.64482606,5,3000 Verano Rd,3000,
-Verano 3100,-117.8325886,33.64507933,5,3100 Verano Rd,3100,
-Verano 3200,-117.8327004,33.64529318,5,3200 Verano Rd,3200,
-Verano 400,-117.83341,33.64538699,5,400 Verano Rd,400,
-Verano 500,-117.8339651,33.64538947,5,500 Verano Rd,500,
-Verano 600,-117.8335545,33.64502931,5,600 Verano Rd,600,
-Verano 6200-6220,-117.8296669,33.64397396,5,6200-6220 Adobe Circle Rd South,6200-6220,
-Verano 6222-6253,-117.8299316,33.64337872,5,6222-6253 Adobe Circle Rd South,6222-6253,
-Verano 6255-6286,-117.8301043,33.64267343,5,6255-6286 Adobe Circle Rd South,6255-6286,
-Verano 6287-6319,-117.8309844,33.64272642,5,6287-6319 Adobe Circle Rd South,6287-6319,
-Verano 6321-6351,-117.8324082,33.64308848,5,6321-6351 Adobe Circle Rd South,6321-6351,
-Verano 6355-6386,-117.8333516,33.64331479,5,6355-6386 Adobe Circle Rd South,6355-6386,
-Verano 6387-6419,-117.8342571,33.64342509,5,6387-6419 Adobe Circle Rd South,6387-6419,
-Verano 6437-6456,-117.8346118,33.64417876,5,6437-6456 Adobe Circle Rd South,6337-6456,
-Verano 6457-6476,-117.8333268,33.64398916,5,6457-6476 Adobe Circle Rd South,6457-6476,
-Verano 6478-6493,-117.8324832,33.64407554,5,6478-6493 Adobe Circle Rd South,6478-6493,
-Verano 6495-6510,-117.8318863,33.64415589,5,6495-6510 Adobe Circle Rd South,6495-6510,
-Verano 6512-6528,-117.8313989,33.64386067,5,6512-6528 Adobe Circle Rd South,6512-6528,
-Verano 66000,-117.8314255,33.64509765,5,66000 Adobe Circle S,6600,
-Verano 67000,-117.8308011,33.64515967,5,67000 Adobe Circle S,67000,
-Verano 68000,-117.8301419,33.64503786,5,68000 Adobe Circle S,68000,
-Verano 69000,-117.8296516,33.64481814,5,69000 Adobe Circle S,69000,
-Verano 700,-117.8330234,33.64504687,5,700 Verano Rd,700,
-Verano 800,-117.8333363,33.64473989,5,800 Verano Rd,800,
-Verano 900,-117.8334398,33.64658508,5,900 Verano Rd,900,
-Verano Apt. Laundry 3,-117.8333845,33.64640642,4,L-3 Verano Rd,L-3,
-Verano Apt. Laundry 4,-117.8324504,33.6469299,4,L-4 Verano Rd,L-4,
-Verano Apt. Laundry 5,-117.8327227,33.64649129,4,L-5 Verano Rd,L-5,
-Verano Apt. Laundry 11,-117.8300821,33.64381593,4,L-11 Adobe Circle Rd South,L-11,
-Verano Apt. Laundry 12,-117.8302122,33.64308574,4,L-12 Adobe Circle Rd South,L-12,
-Verano Apt. Laundry 13,-117.8308259,33.64301919,4,L-13 Adobe Circle Rd South,L-13,
-Verano Apt. Laundry 14,-117.8322727,33.64337056,4,L-14 Adobe Circle Rd South,L-14,
-Verano Apt. Laundry 15,-117.8334629,33.64361677,4,L-15 Adobe Circle Rd South,L-15,
-Verano Apt. Laundry 16,-117.8345062,33.64393167,4,6436 Adobe Circle Rd South,6436,
-Verano Apt. Laundry 17,-117.83284,33.64386617,4,L-17 Adobe Circle Rd South,L-17,
-Verano Apt. Laundry 18,-117.8321514,33.64385043,4,L-18 Adobe Circle Rd South,L-18,
-Verano Apt. Laundry 19,-117.8317168,33.64374792,4,L-19 Adobe Circle Rd South,L-19,
-Verano Housing Office Commons,-117.8302763,33.64422498,2,6529 Adobe Circle Rd South,6529,
-Vista del Campo 612,-117.8228629,33.64215405,5,612 Arroyo Dr,612,
-Vista del Campo 613,-117.822925,33.641906,5,613 Arroyo Dr,613,
-Vista del Campo 614,-117.8233255,33.64200373,5,614 Arroyo Dr,614,
-Vista del Campo 614,-117.8233367,33.64225778,5,614 Arroyo Dr,614,
-Vista del Campo 615,-117.8238038,33.64217801,5,615 Arroyo Dr,615,
-Vista del Campo 616,-117.8235912,33.64158989,5,616 Arroyo Dr,616,
-Vista del Campo 617,-117.8230497,33.641554,5,617 Arroyo Dr,617,
-Vista del Campo 618,-117.8231942,33.64116201,5,618 Arroyo Dr,618,
-Vista del Campo 619,-117.8236024,33.64123879,5,619 Arroyo Dr,619,
-Vista del Campo 620,-117.8239609,33.64169804,5,620 Arroyo Dr,620,
-Vista del Campo 621,-117.824127,33.64130842,5,621 Arroyo Dr,621,
-Vista del Campo 622,-117.8243329,33.64090767,5,622 Arroyo Dr,622,
-Vista del Campo 623,-117.823761,33.64092724,5,623 Arroyo Dr,623,
-Vista del Campo 624,-117.823368,33.64081779,5,624 Arroyo Dr,624,
-Vista del Campo 625,-117.8235095,33.64052935,5,625 Arroyo Dr,625,
-Vista del Campo 626,-117.8237343,33.64016785,5,626 Arroyo Dr,626,
-Vista del Campo 627,-117.8239814,33.63980029,5,627 Arroyo Dr,627,
-Vista del Campo 628,-117.824261,33.63955617,5,628 Arroyo Dr,628,
-Vista del Campo 629,-117.8246014,33.63978388,5,629 Arroyo Dr,629,
-Vista del Campo 630,-117.824698,33.6403326,5,630 Arroyo Dr,630,
-Vista del Campo 631,-117.8249195,33.64001924,5,631 Arroyo Dr,631,
-Vista del Campo 632,-117.8251637,33.63969367,5,632 Arroyo Dr,632,
-Vista del Campo 633,-117.8255306,33.63959651,5,633 Arroyo Dr,633,
-Vista del Campo 634,-117.8253826,33.63932233,5,634 Arroyo Dr,634,
-Vista del Campo 635,-117.8244657,33.6392525,5,635 Arroyo Dr,635,
-Vista del Campo 636,-117.8245976,33.63888674,5,636 Arroyo Dr,636,
-Vista del Campo 637,-117.8249108,33.63932822,5,637 Arroyo Dr,637,
-Vista del Campo 638,-117.8250055,33.63888763,5,638 Arroyo Dr,638,
-Vista del Campo 639,-117.8248427,33.63852374,5,639 Arroyo Dr,639,
-Vista del Campo 640,-117.8254446,33.63891999,5,640 Arroyo Dr,640,
-Vista del Campo 641,-117.8253508,33.63850361,5,641 Arroyo Dr,641,
-Vista del Campo 642,-117.825046,33.63818239,5,642 Arroyo Dr,642,
-Vista del Campo Community Center,-117.8240632,33.64045066,6,62600 Arroyo Dr,62600,
-Vista del Campo Norte 285,-117.8252899,33.64882076,5,285 Arroyo Dr,285,
-Vista del Campo Norte 288,-117.8248281,33.64810768,5,288 Arroyo Dr,288,
-Vista del Campo Norte 289,-117.8247518,33.64726928,5,289 Arroyo Dr,289,
-Vista del Campo Norte 290,-117.8241072,33.64724841,5,290 Arroyo Dr,290,
-Vista del Campo Norte 291,-117.824522,33.6469247,5,291 Arroyo Dr,291,
-Vista del Campo Norte 292,-117.8235526,33.64631143,5,292 Arroyo Dr,292,
-Vista del Campo Norte 293,-117.8241093,33.6462345,5,293 Arroyo Dr,293,
-Vista del Campo Norte 294,-117.8239177,33.64586421,5,294 Arroyo Dr,294,
-Vista del Campo Norte 295,-117.8237045,33.64526869,5,295 Arroyo Dr,295,
-Vista del Campo Norte 296,-117.8232075,33.64534398,5,296 Arroyo Dr,296,
-Vista del Campo Norte 297,-117.8235839,33.644748,5,297 Arroyo Dr,297,
-Vista del Campo Norte 298,-117.8229247,33.64476379,5,298 Arroyo Dr,298,
-Vista del Campo Norte 401,-117.8227295,33.64437615,5,401 Arroyo Dr,401,
-Vista del Campo Norte 402,-117.8227954,33.64408568,5,402 Arroyo Dr,402,
-Vista del Campo Norte 403,-117.8231572,33.64433031,5,403 Arroyo Dr,403,
-Vista del Campo Norte 404,-117.8235154,33.64417614,5,404 Arroyo Dr,404,
-Vista del Campo Norte 405,-117.8235066,33.64364352,5,405 Arroyo Dr,405,
-Vista del Campo Norte 406,-117.8235487,33.64325349,5,406 Arroyo Dr,406,
-Vista del Campo Norte 407,-117.823132,33.64340228,5,407 Arroyo Dr,407,
-Vista del Campo Norte 408,-117.8228792,33.64372263,5,408 Arroyo Dr,408,
-Vista del Campo Norte 409,-117.8226645,33.64331983,5,409 Arroyo Dr,409,
-Vista del Campo Norte 410,-117.8228671,33.64300616,5,410 Arroyo Dr,410,
-Vista del Campo Norte Leasing Office,-117.8253363,33.64782576,2,287 Arroyo Dr,287,
-William J. Gillespie Performance Studios,-117.8452086,33.65058961,1,728 Arts Quad,728,PSTU
-Winifred Smith Hall,-117.8444129,33.64951865,1,710 Arts Quad,710,WSH
-Yurt Dance Studio,-117.8279524,33.64200448,6,627 California Ave,627,
+110 Theory,-117.8560325,33.64371282,110 Theory,110,
+Admissions,-117.840723,33.64831,260 Aldrich Hall,111,
+Air Pollution Labs,-117.8538838,33.66482305,19172 Jamboree Rd,94,APL
+Aldrich Hall,-117.840723,33.64831,215 Aldrich Hall,111,ALH
+Alumni House,-117.8461329,33.65237256,450 Alumni Court,450,
+Anteater Instruction and Research Building,-117.837965,33.64284259,653 E Peltason Dr,653,AIRB
+"Art, Culture and Technology",-117.8448326,33.65053791,727 Arts Quad,727,ACT
+Arts Computation Engineering,-117.8468779,33.64647338,522 Biological Sciences Quad,522,
+Arts Instruction and Technology Resource Center,-117.843902,33.64977312,714 Arts Quad,714,AITR
+Arts Studio,-117.8448649,33.65029618,722 Arts Quad,722,ART
+Ayala Science Library,-117.8466335,33.64585385,520 Biological Sciences Quad,520,SLIB
+Beall Center for Art & Technology,-117.8443992,33.64987309,712 Arts Quad,712,
+Beckman Center,-117.854325,33.648857,100 Academy Drive,0,
+Beckman Laser Institute,-117.8499592,33.64425895,817 Medical Sciences Quad,817,BLI
+Berk Hall Nursing Science,-117.8494845,33.64619994,802 Medical Sciences Quad,802,BH
+Biological Sciences Administration,-117.846329,33.64374284,515 Biological Sciences Quad,515,
+Steinhaus Hall,-117.8448309,33.64623148,502 Biological Sciences Quad,502,SH
+McGaugh Hall,-117.844781,33.64524535,503 Biological Sciences Quad,503,MH
+Biological Sciences III,-117.8460757,33.64534684,519 Biological Sciences Quad,519,BS3
+Bonney Research Laboratory,-117.8461014,33.64638045,512 Biological Sciences Quad,512,BRL
+Calit2,-117.8411905,33.64287423,325 Engineering Quad,325,Calit2
+Center for the Neurobiology of Learning and Memory Annex,-117.8463967,33.64658212,516 Biological Sciences Quad,516,CNLM
+Choral Studio,-117.8440284,33.64959173,718 Arts Quad,718,
+Contemporary Arts Center,-117.8452513,33.65003639,721 Arts Quad,721,CAC
+Croul Hall,-117.8446483,33.64368719,417 Physical Sciences Quad,417,CRH
+Engineering Hall,-117.8411599,33.64365726,308 Engineering Quad,308,EH
+Engineering Laboratory Facility,-117.8396302,33.64375938,323 Engineering Quad,323,ELF
+Engineering Lecture Hall,-117.8407073,33.6444453,305 Engineering Quad,305,ELH
+Engineering Tower,-117.8411048,33.64470335,303 Engineering Quad,303,ET
+Faculty Research Facility,-117.8542559,33.66432463,19172 Jamboree Rd,95,FRF
+Gavin Herbert Eye Institute,-117.8522507,33.64172205,850 Health Sciences Rd,850,
+Gillespie Neuroscience Research Facility,-117.8512878,33.64405446,837 Medical Sciences Quad,837,GNRF
+Gottschalk Medical Plaza,-117.8510706,33.64688789,820 Medical Plaza Dr,820,
+Greenhouse,-117.8453427,33.6472862,514 Biological Sciences Quad,514,
+Gross Hall,-117.8512871,33.64350444,845 Medical Sciences Quad,845,
+Hewitt Research Hall,-117.851985,33.64348133,843 Medical Sciences Quad,843,HRH
+Humanities Gateway,-117.8445568,33.64816352,611 Humanities Quad,611,HG
+Humanities Hall,-117.8439865,33.64731527,601 Humanities Quad,601,HH
+Humanities Instructional Building,-117.843862,33.648341,610 Humanities Quad,610,HIB
+Humanities Interim Classroom Facility,-117.846817,33.64688033,523 Humanities Quad,523,HICF
+Humanities Modular,-117.8443176,33.64713163,603 Humanities Quad,603,
+ICS Educational Technology Center and Research Facility,-117.840204,33.64431191,315 Engineering Quad,315,
+Information and Computer Science,-117.8417646,33.64427978,302 Engineering Quad,302,ICS
+Information and Computer Science 2,-117.8420216,33.64389669,304 Engineering Quad,304,ICS2
+Intercollegiate Athletic Building,-117.8454802,33.6481963,625 Humanities Quad,625,IAB
+Interim Classroom Facility,-117.8399651,33.64443157,315 Engineering Quad,315,ICF
+Joan Irvine Smith Hall,-117.8524571,33.64488747,835 Medical Sciences Quad,835,IH
+Krieger Hall,-117.8434887,33.64761414,600 Humanities Quad,600,KH
+Langson Library,-117.8410741,33.64712267,102 Gateway Quad,102,LLIB
+Leo Freedman Foundation Production Studio,-117.8456926,33.64974032,723 Arts Quad,723,
+Medical Education Building,-117.8520975,33.64462445,836 Medical Sciences Quad,836,
+Medical Sciences A,-117.8497961,33.64500732,813 Medical Sciences Quad,813,MS-A
+Medical Sciences A Annex,-117.8503923,33.64480869,819 Medical Sciences Quad,819,
+Medical Sciences A Annex Offices,-117.8499241,33.64480786,815 Medical Sciences Quad,815,
+Medical Sciences B,-117.8498565,33.64549605,811 Medical Sciences Quad,811,MS-B
+Medical Sciences C,-117.850448,33.64549175,821 Medical Sciences Quad,821,MS-C
+Medical Sciences Classroom Facility,-117.8523487,33.64534064,833 Medical Sciences Quad,833,
+"Medical Sciences D, Cheney Building",-117.8510393,33.64548269,825 Medical Sciences Quad,825,
+Medical Sciences E,-117.8514888,33.64539598,827 Medical Sciences Quad,827,MS-E
+Medical Surge I,-117.8501311,33.64638452,810 Medical Plaza Dr,810,MS1
+Medical Surge II,-117.8500455,33.64684262,812 Medical Plaza Dr,812,MS2
+Mesa Arts Building,-117.8463582,33.65017024,4000 Mesa Rd,4000,MAB
+MRI 3T Trailer,-117.8521414,33.64525281,841 Medical Science Court,841,
+MRI 4T Trailer,-117.852343,33.64547461,832 Medical Sciences Quad,832,
+Multipurpose Academic and Administrative Building,-117.8369492,33.64707414,4302 Pereira Dr,2,MPAA
+Multipurpose Science & Technology Building,-117.8444223,33.64203733,415 Physical Sciences Quad,415,MSTB
+Music and Media Building,-117.8444649,33.64935062,726 Arts Quad,726,MM
+Natural Sciences I,-117.8457024,33.64443314,517 Biological Sciences Quad,517,NS1
+Natural Sciences II,-117.845269,33.64399964,402 Physical Sciences Quad,402,NS2
+Parkview Classroom Building,-117.8427945,33.64449473,403 Physical Sciences Quad,403,PCB
+Physical Sciences Classroom Building,-117.8434678,33.64339949,413 Physical Sciences Quad,413,PSCB
+Physical Sciences High Bay,-117.8452267,33.64364617,404 Physical Sciences Quad,404,
+Physical Sciences Lecture Hall,-117.8439506,33.64339133,411 Physical Sciences Quad,411,PSLH
+Plumwood House,-117.8511089,33.64482726,829 Medical Sciences Quad,829,PH
+Production Studio,-117.845807,33.64966692,723 Arts Quad,723,
+Psychiatry,-117.8539322,33.66426823,19172 Jamboree Rd,0,
+Public Services,-117.8349076,33.6465253,200 Public Services Building,7,PSB
+Qureshey Research Laboratory,-117.8457488,33.6465726,506 Biological Sciences Quad,506,QRL
+Reines Hall,-117.843278,33.64415409,401 Physical Sciences Quad,401,
+Robert Cohen Theater & Dance Studios,-117.8455184,33.64929517,713 Arts Quad,713,
+Rockwell Engineering Center,-117.8406119,33.6438986,311 Engineering Quad,311,REC
+Rowland Hall,-117.8441291,33.64450317,400 Physical Sciences Quad,400,RH
+Schneiderman Lecture Hall,-117.844653,33.64557329,501 Biological Sciences Quad,501,
+School of Business II,-117.8380609,33.64665481,221 Social Sciences Quad,221,
+School of Law,-117.8359048,33.64677029,401 E Peltason Dr,4,
+"Sculpture, Ceramic Studios, Nixon Theatre",-117.84434,33.65031468,720 Arts Quad,720,SCS
+Social & Behavioral Sciences Gateway,-117.8391021,33.64739003,214 Social Sciences Quad,214,SBSG
+Social Ecology I,-117.8387752,33.64615522,210 Social Sciences Quad,210,SE
+Social Ecology II,-117.8389458,33.64657671,215 Social Sciences Quad,215,SE2
+Social Science Hall,-117.8400542,33.64623075,200 Social Sciences Quad,200,SSH
+Social Science Lab,-117.8399943,33.64592161,202 Social Sciences Quad,202,SSL
+Social Science Lecture Hall,-117.8397105,33.64724099,212 Social Sciences Quad,212,SSLH
+Social Science Plaza A,-117.8395242,33.64692684,211 Social Sciences Quad,211,SSPA
+Social Science Plaza B,-117.8390489,33.64695627,213 Social Sciences Quad,213,SSPB
+Social Science Tower,-117.8402567,33.64645799,201 Social Sciences Quad,201,SST
+Social Science Trailer,-117.8402567,33.64701742,203 Social Sciences Quad,203,SSTR
+Sprague Hall,-117.852026,33.64405977,839 Medical Sciences Quad,839,SPH
+"Student Services I, II",-117.842098,33.648807,Student Services I and II,105,"SS1, SS2"
+Studio Four,-117.8456735,33.65013924,725 Arts Quad,725,STU4
+Tamkin Student Lecture Hall,-117.8519793,33.6455275,831 Medical Sciences Quad,831,
+Trevor Theatre,-117.845191,33.64946593,711 Arts Quad,711,
+University Extension A / Women's Opportunities Center,-117.8373236,33.64649526,231 Social Sciences Quad,231,UNEX
+University Extension B,-117.8374443,33.64625455,230 Social Sciences Quad,230,
+University Extension C,-117.8372806,33.64594995,232 Social Sciences Quad,232,
+University Extension D,-117.8372973,33.64578978,234 Social Sciences Quad,234,
+University Extension ESL Offices,-117.8363648,33.64520846,238 Social Sciences Quad,238,
+University Extension H,-117.8359834,33.64504158,236 Social Sciences Quad,236,
+William J. Gillespie Performance Studios,-117.8452086,33.65058961,728 Arts Quad,728,PSTU
+Winifred Smith Hall,-117.8444129,33.64951865,710 Arts Quad,710,WSH
+100 Theory,-117.85555,33.644217,100 Theory,100,
+101 Academy,-117.854067,33.648101,101 Theory,0,
+111 Theory,-117.855279,33.642102,111 Theory,0,
+120 Theory,-117.857242,33.643835,120 Theory,0,
+5141 California,-117.853959,33.640512,5141 California,0,
+5171 California,-117.854249,33.639788,5171 California,0,
+5251 California,-117.851605,33.638345,5251 California,0,
+Administrative Modular,-117.846227,33.641995,Administrative Modular,423,
+American Heart Association,-117.83049,33.648439,4600 Campus Dr,21,
+Anteater Community Resource Center,-117.843549,33.653639,4079 Mesa Road,3700,ACRC
+Anteater Instruction & Research Building,-117.837967,33.642897,35 E Peltason Dr,653,AIRB
+Art Studio,-117.844858,33.650149,3229 Art Culture and Technology,722,ART
+Arts Annex,-117.846915,33.646483,522 Biological Sciences Ct.,522,
+Associated Students of UCI,-117.842515,33.648571,G244 C Student Center,113,ASUCI
+Bison Modular,-117.846382,33.64378,515 Bison Ave,515,
+Campus Assault Resources & Education,-117.842649,33.64869,G320 Student Center,113,
+Campuswide Honors Program,-117.842448,33.648059,1200 Student Services II,105,CHP
+Claire Trevor Theatre,-117.845319,33.649401,4000 Mesa Rd,711,CTT
+Continuing Education 1,-117.834812,33.644982,510 E Peltason Dr,8,DCE
+Continuing Education 3,-117.837342,33.64576,510 E Peltason Dr,234,
+Continuing Education 4,-117.837307,33.645952,510 E Peltason Dr,232,
+Continuing Education 5,-117.836392,33.645213,510 E Peltason Dr,238,
+Continuing Education 6,-117.83599,33.645039,510 E Peltason Dr,236,
+Donald Bren Hall,-117.8419057,33.64324002,314 Engineering Quad,314,DBH
+Drama Building,-117.8449479,33.64978933,715 Arts Quad,715,DRA
+Education Building,-117.8358727,33.6472323,401 E Peltason Dr,3,EDUC
+Engineering Computing Trailers,-117.8401396,33.64401807,317 Engineering Quad,317,ECT
+Engineering Gateway,-117.8401441,33.6431992,321 Engineering Quad,321,EG
+Environmental Health & Safety Services,-117.850002,33.639201,4600 Health Sciences Rd,41,EHS
+Facilities Management Building,-117.854802,33.66472,201 Facilities Management Building,92,FM
+Faculty Staff Housing Office,-117.841956,33.640464,1083 California Avenue,1083,
+Frederick Reines Hall,-117.843524,33.644069,4129 Frederick Reines Hall,401,FRH
+Hospitality & Dining,-117.842649,33.64869,G318 Student Center,113,
+Housing Administrative Services,-117.842649,33.64869,G458 Student Center,113,HAS
+Howard Schneiderman Lecture Hall,-117.844685,33.645634,Howard Schneiderman Lecture Hall,501,HSLH
+KUCI Radio Station,-117.84719,33.646388,KUCI 88.9 FM,521,
+LGBT Resource Center,-117.842649,33.64869,G301 Student Center,113,
+Law Building,-117.835922,33.646757,401 East Peltason Drive,4,LAW
+Little Theatre,-117.843966,33.647316,4000 Mesa Rd,601,
+McDonnell Douglas Engineering Auditorium ,-117.840595,33.643873,314 Los Trancos Dr,311,MDE
+Merage School of Business,-117.838127,33.646977,4293 Pereira Dr,222,SB1
+Merage School of Business II,-117.838063,33.646667,4293 Pereira Dr,221,SB2
+Mesa Office Building,-117.846343,33.651241,303 Music & Media,59,MOB
+Newkirk Alumni Center,-117.846205,33.652234,450 Alumni Court,450,
+Nixon Theatre,-117.844469,33.650201,4004 Mesa Road,720,
+Pysical Sciences Classroom Building,-117.843484,33.643391,Physical Sciences Classroom Bldg,413,PSCB
+Student Center,-117.842406,33.649453,311 W Peltason Dr,113,SC
+Student Health Center,-117.835915,33.645587,501 Student Health,5,SHC
+Student Health Center II,-117.834899,33.6456,501 Student Health,6,
+Student Life & Leadership,-117.842649,33.64869,G308 UCI Student Center,113,
+Summer Session A,-117.837304,33.646482,231 Pereira Dr,231,
+Summer Session B,-117.837476,33.646234,231 Pereira Dr,230,
+University Art Gallery,-117.844545,33.649833,712 Arts Plaza,712,
+University Tower,-117.83829,33.650764,4199 Campus Drive,4199,UT
+Veteran Services,-117.842649,33.64869,G304 UCI Student Center,113,
+Yurt Dance Studio,-117.82796,33.642005,Calfironia Ave,627,

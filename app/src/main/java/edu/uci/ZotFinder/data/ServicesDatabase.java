@@ -13,7 +13,7 @@ public class ServicesDatabase extends SQLiteOpenHelper {
     SQLiteStatement statement;
 	
 	public ServicesDatabase(Context context) {
-		super(context, DATABASE_NAME, null, 1);
+		super(context, DATABASE_NAME, null, 2);
 	}
 
 	@Override
@@ -26,6 +26,7 @@ public class ServicesDatabase extends SQLiteOpenHelper {
 						"_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
 						"serviceName TEXT, " +
 						"serviceAddress TEXT, " +
+                        "serviceWebsite TEXT, " +
 						"serviceLatitude TEXT," +
 						"serviceLongitude TEXT)";
 		db.execSQL(sql);
@@ -45,6 +46,7 @@ public class ServicesDatabase extends SQLiteOpenHelper {
                 "_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 "serviceName TEXT, " +
                 "serviceAddress TEXT, " +
+                "serviceWebsite TEXT, " +
                 "serviceLatitude TEXT," +
                 "serviceLongitude TEXT)";
         db.execSQL(sql);
@@ -55,12 +57,12 @@ public class ServicesDatabase extends SQLiteOpenHelper {
     public void open() {
         db = this.getWritableDatabase();
         db.beginTransaction();
-        String sql = "INSERT INTO service VALUES (?,?,?,?,?);";
+        String sql = "INSERT INTO service VALUES (?,?,?,?,?,?);";
         statement = db.compileStatement(sql);
     }
 
     public void addToDatabase(String[] input) throws UnsupportedEncodingException {
-        for (int i = 0; i<4; i++) {
+        for (int i = 0; i<5; i++) {
             statement.bindString(i+2, input[i]);
         }
         statement.execute();

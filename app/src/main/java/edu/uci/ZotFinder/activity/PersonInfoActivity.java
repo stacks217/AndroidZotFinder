@@ -99,12 +99,6 @@ public class PersonInfoActivity extends AppCompatActivity {
                     }
             }
             
-            //hardcoded solution for DBH
-            if(buildingLocation.equals("Donald Bren Hall"))
-            {
-                    buildingLocation = "Bren Hall";
-            }
-            
             SQLiteDatabase buildingDb = (new BuildingDatabase(this)).getReadableDatabase();
             Cursor cursor = buildingDb.rawQuery("SELECT _id, buildingName, buildingNumber, buildingAddress, buildingLongitude, buildingLatitude FROM building WHERE buildingName like ?",
                     new String[]{buildingLocation});

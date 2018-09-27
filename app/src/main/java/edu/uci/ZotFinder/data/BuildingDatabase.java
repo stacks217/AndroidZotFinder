@@ -13,7 +13,7 @@ public class BuildingDatabase extends SQLiteOpenHelper {
     SQLiteStatement statement;
 
 	public BuildingDatabase(Context context) {
-		super(context, DATABASE_NAME, null, 3);
+		super(context, DATABASE_NAME, null, 4);
 	}
 
 	@Override
@@ -28,7 +28,6 @@ public class BuildingDatabase extends SQLiteOpenHelper {
 						"buildingName TEXT, " +
 						"buildingLongitude TEXT, " +
 						"buildingLatitude TEXT, " +
-						"buildingType TEXT, " +
 						"buildingAddress TEXT, " +
                         "buildingNumber TEXT, " +
 						"buildingAbbr TEXT)";
@@ -44,7 +43,6 @@ public class BuildingDatabase extends SQLiteOpenHelper {
                 "buildingName TEXT, " +
                 "buildingLongitude TEXT, " +
                 "buildingLatitude TEXT, " +
-                "buildingType TEXT, " +
                 "buildingAddress TEXT, " +
                 "buildingNumber TEXT, " +
                 "buildingAbbr TEXT)";
@@ -62,12 +60,12 @@ public class BuildingDatabase extends SQLiteOpenHelper {
     public void open() {
         db = this.getWritableDatabase();
         db.beginTransaction();
-        String sql = "INSERT INTO building VALUES (?,?,?,?,?,?,?,?);";
+        String sql = "INSERT INTO building VALUES (?,?,?,?,?,?,?);";
         statement = db.compileStatement(sql);
     }
 	
 	public void addToDatabase(String[] input) throws UnsupportedEncodingException {
-        for (int i = 0; i<7; i++) {
+        for (int i = 0; i<6; i++) {
             statement.bindString(i+2, input[i]);
         }
         statement.execute();

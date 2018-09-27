@@ -1,82 +1,258 @@
-Health Policy Research Institute,101 Theory,33.64371282,-117.8560325
-University Advancement,101 Theory,33.64371282,-117.8560325
-Strategic Communications,101 Theory,33.64371282,-117.8560325
-Human Resources,111 Theory,33.64188779,-117.8552455
-Office of Technology (OIT),Administrative Modular,33.64188014,-117.8461223
-Admissions,Aldrich Hall,33.6484053,-117.8412082
-Registrar,Aldrich Hall,33.6484053,-117.8412082
-Cashier,Aldrich Hall,33.6484053,-117.8412082
-Financial Aid,Aldrich Hall,33.6484053,-117.8412082
-Chancellor's Office,Aldrich Hall,33.6484053,-117.8412082
-Executive Vice Chancellor,Aldrich Hall,33.6484053,-117.8412082
-Graduate Division,Aldrich Hall,33.6484053,-117.8412082
-Student Affairs,Aldrich Hall,33.6484053,-117.8412082
-Humanities Research Institute,Aldrich Hall,33.6484053,-117.8412082
-Institute of Transportation Studies,Anteater Instruction & Research Bldg. (AIRB),33.64284259,-117.837965
-Teacher Education,Education,33.6472323,-117.8358727
-Office of Technology (OIT),Engineering Gateway (EG),33.6431992,-117.8401441
-Police,Public Services,33.64644378,-117.8347884
-Parking & Transportation,Public Services,33.64644378,-117.8347884
-Purchasing,Public Services,33.64644378,-117.8347884
-ASUCI/AGS,Student Center,33.64865964,-117.8426741
-Dean of Students,Student Center,33.64865964,-117.8426741
-Housing Administrative Services (HAS),Student Center,33.64865964,-117.8426741
-Health Education,Student Center,33.64865964,-117.8426741
-Lesbian%2C Gay%2C Bisexual%2C Transgender Resouce Center (LGBTRC),Student Center,33.64865964,-117.8426741
-Scheduling,Student Center,33.64865964,-117.8426741
-STA Travel,Student Center,33.64865964,-117.8426741
-Zot Zone,Student Center,33.64865964,-117.8426741
-Schools First FCU,Student Center,33.64865964,-117.8426741
-Wells Fargo Bank,Student Center,33.64865964,-117.8426741
-UCItems,Student Center,33.64865964,-117.8426741
-ATMs,Student Center,33.64865964,-117.8426741
-Campur Tours,Student Center,33.64865964,-117.8426741
-International Center,Student Center,33.64865964,-117.8426741
-Student Life & Leadership,Student Center,33.64865964,-117.8426741
-Veteran Services,Student Center,33.64865964,-117.8426741
-Visitor Center,Student Center,33.64865964,-117.8426741
-Campus Information,Student Health Center II,33.64561953,-117.8349032
-Painting Studio,Art Studio,33.65029618,-117.8448649
-Arts Ticket Office,Drama Building,33.64978933,-117.8449479
-Irvine Barclay Ticket Office,Irvine Barclay Theater - Cheng Hall,33.64920376,-117.840743
-Arts Student Affairs,Mesa Arts Building,33.65017024,-117.8463582
-Costume Shop,Robert Cohen Theater,33.64929517,-117.8455184
-Bren Ticket Office (Ticketmaster),Bren Events Center,33.64939292,-117.8470163
-Herklotz Research Facility,Bonney Research Laboratory,33.64638045,-117.8461014
-Herklotz Research Facility,Qureshey Research Laboratory,33.6465726,-117.8457488
-Cancer Research Institute,Biological Sciences I (Steinhaus Hall),33.64623148,-117.8448309
-Interactive Learning Center,Ayala Science Library,33.64585385,-117.8466335
-Anthill Pub & Grille,Student Center,33.64865964,-117.8426741
-Subway,B.C.'s Cavern on the Green,33.64590634,-117.8444239
-Brandywine Commons,Middle Earth Brandywine Commons,33.64562589,-117.8390246
-Cafe Med,Cafe Med,33.6460389,-117.8491012
-Cyber A Cafe,Cyber A Cafe,33.64980679,-117.8446949
-Greens-to-Go,Student Center,33.64865964,-117.8426741
-Bene's Pizza and Pasta,Student Center,33.64865964,-117.8426741
-Jamba Juice,Student Center,33.64865964,-117.8426741
-Mesa Court Commons,Mesa Court Commons,33.65108394,-117.8453445
-Greens-to-Go,Phoenix Grille,33.64557154,-117.8405844
-Grille Works,Phoenix Grille,33.64557154,-117.8405844
-Tortilla Fresca,Phoenix Grille,33.64557154,-117.8405844
-Einstein Bagels,Phoenix Grille,33.64557154,-117.8405844
-Middle Earth Pippin Commons,Middle Earth Pippin Commons,33.64478199,-117.8367968
-Starbucks,Student Center,33.64865964,-117.8426741
-University Club,University Club,33.64293114,-117.8425046
-Wendy's,Student Center,33.64865964,-117.8426741
-Washoo's Fish Taco,Student Center,33.64865964,-117.8426741
-Panda Express,Student Center,33.64865964,-117.8426741
-Subway,Student Center,33.64865964,-117.8426741
-Registrar (School of Medicine),Medical Sciences E,33.64539598,-117.8514888
-University Communications,School of Law,33.64677029,-117.8359048
-Equal Opportunity & Diversity,Multipurpose Science & Technology Building,33.64203733,-117.8444223
-Office of Information (OIT),Multipurpose Science & Technology Building,33.64203733,-117.8444223
-UCI Environmental Institute,Multipurpose Science & Technology Building,33.64203733,-117.8444223
-Global Change Energy & Sust. Resources,Multipurpose Science & Technology Building,33.64203733,-117.8444223
-Reines Hall (FRH),Multipurpose Science & Technology Building,33.64203733,-117.8444223
-Learning & Academic Resource Center (LARC),Rowland Hall,33.64450317,-117.8441291
-Career Center,Student Services I,33.64791816,-117.8423616
-Center for International Education,Student Services I,33.64791816,-117.8423616
-UROP,Student Services I,33.64791816,-117.8423616
-Counseling Center,Student Services I,33.64791816,-117.8423616
-Continuing Education Bridge,,-117.8353,33.64504
-Bridge Cafe,Continuing Education Building,-117.834918,33.645069
+20 / 20 Cafe,Gavin Herbert Eye Institute,http://www.placestoeat.uci.edu/dining.php,33.64172205,-117.8522507
+Admissions,Aldrich Hall,http://www.admissions.uci.edu/,33.64831,-117.840723
+Alumni Cafe,Newkirk Alumni Center,http://www.placestoeat.uci.edu/dining.php,33.65237256,-117.8461329
+Anteater Parking Structure,Zone 4 Parking,,33.64313837,-117.8377112
+Anthill Pub & Grille,Student Center,http://www.placestoeat.uci.edu/dining.php,33.64865964,-117.8426741
+ARC Parking Structure,Zone 1-6 Parking,,33.64513479,-117.8281785
+Arts Student Affairs,Mesa Arts Building,http://admin.arts.uci.edu/content/student-affairs-office,33.65017024,-117.8463582
+Arts Ticket Office,Claire Trevor School of the Arts,http://www.arts.uci.edu/boxoffice,33.64978933,-117.8449479
+ASUCI / AGS,Student Center,https://www.asuci.uci.edu/,33.64865964,-117.8426741
+ATMs,Student Center,http://www.studentcenter.uci.edu/Common%20Sub%20Pages/ATMs.php,33.64865964,-117.8426741
+Bene's Pizza and Pasta,Student Center,http://www.placestoeat.uci.edu/dining.php,33.64865964,-117.8426741
+Bike Shop,Bike Shop,,33.6507301,-117.8427354,http://bike.uci.edu/services/bikeshop.cfm,
+Brandywine Commons,Middle Earth Brandywine Commons,,33.64562589,-117.8390246
+Bren Ticket Office Ticketmaster,Bren Events Center,http://www.bren.uci.edu/Tickets/,33.64939292,-117.8470163
+C3 Convenience Store ,Social Science Plaza A,http://www.food.uci.edu/convenience.php,33.64692684,-117.8395242
+Cafe Espresso,Reines Hall,http://www.placestoeat.uci.edu/dining.php,33.64415409,-117.843278
+Cafe Med,Cafe Med,http://www.placestoeat.uci.edu/dining.php,33.6460389,-117.8491012
+Campus Information,Student Health Center II,,33.64561953,-117.8349032
+Campus Tours,Student Center,http://www.campustours.uci.edu/,33.64865964,-117.8426741
+Cancer Research Institute,Biological Sciences I Steinhaus Hall,http://cri.bio.uci.edu/,33.64623148,-117.8448309
+Career Center,Career Center,http://www.career.uci.edu/,33.64791816,-117.8423616
+Cashier,Aldrich Hall,http://www.fs.uci.edu/Cashier/CashHome.htm,33.64831,-117.840723
+Center for International Education,Student Center,http://www.ic.uci.edu/,33.64791816,-117.8423616
+Center for the Neurobiology of Learning and Memory,Qureshey Research Laboratory,http://www.cnlm.uci.edu/,33.6465726,-117.8457488
+Chancellor's Office,Aldrich Hall,http://chancellor.uci.edu/,33.64831,-117.840723
+Costume Shop,Robert Cohen Theater,,33.64929517,-117.8455184
+Counseling Center,Student names I,http://www.counseling.uci.edu/,33.64791816,-117.8423616
+Crawford Clubhouse,Crawford Clubhouse,,33.64760685,-117.8491979
+CT Parking Lot,Zones 1-6 Parking,https://www.parking.uci.edu/,33.64844,-117.828669
+Dean of Students,Student Center,http://www.dos.uci.edu/,33.64865964,-117.8426741
+Einstein Bagels,Phoenix Grille,http://www.placestoeat.uci.edu/dining.php,33.64557154,-117.8405844
+Equal Opportunity & Diversity,Multipurpose Science & Technology Building,http://www.oeod.uci.edu/,33.64203733,-117.8444223
+Executive Vice Chancellor,Aldrich Hall,http://provost.uci.edu/,33.64831,-117.840723
+Financial Aid,Aldrich Hall,http://www.ofas.uci.edu/content/,33.64831,-117.840723
+"Global Change, Energy & Sust. Resources",Multipurpose Science & Technology Building,http://environment.uci.edu/,33.64203733,-117.8444223
+Graduate Division,Aldrich Hall,http://www.grad.uci.edu/,33.64831,-117.840723
+Greens-to-Go,Student Center,http://www.placestoeat.uci.edu/dining.php,33.64865964,-117.8426741
+Grille Works,Phoenix Grille,http://www.placestoeat.uci.edu/dining.php,33.64557154,-117.8405844
+Health Education,Student Center,http://www.healtheducation.uci.edu/,33.64865964,-117.8426741
+Health Policy Research Institute,101 Theory,,33.64371282,-117.8560325
+Herklotz Research Facility,Bonney Research Laboratory,,33.64638045,-117.8461014
+Housing Administrative names HAS,Student Center,,33.64865964,-117.8426741
+Human Resources,111 Theory,,33.64188779,-117.8552455
+Humanities Research Institute,Aldrich Hall,,33.64831,-117.840723
+Institute of Transportation Studies,Anteater Instruction & Research Bldg. (AIRB),,33.64284259,-117.837965
+Interactive Learning Center,Ayala Science Library,,33.64585385,-117.8466335
+Interfaith,Interfaith,,33.64419428,-117.8397649
+International Center,Student Center,,33.64865964,-117.8426741
+Irvine Barclay Ticket Office,Irvine Barclay Theater - Cheng Hall,,33.64920376,-117.840743
+Jamba Juice,Student Center,,33.64865964,-117.8426741
+Java City,Java City Kiosk,,33.64340817,-117.8410944
+KUCI Radio Station,Biological Sciences Quad,,33.64657091,-117.8470522
+Learning & Academic Resource Center LARC,Rowland Hall,,33.64450317,-117.8441291
+"Lesbian, Gay, Bisexual, Transgender Resouce Center LGBTRC",Student Center,,33.64865964,-117.8426741
+Mesa Court Commons,Mesa Court Commons,,33.65108394,-117.8453445
+Mesa Parking Structure,Zone 1 Parking,,33.65055561,-117.846605
+Middle Earth Pippin Commons,Middle Earth Pippin Commons,,33.64478199,-117.8367968
+Newkirk Pavilion Clubhouse,Newkirk Pavilion Clubhouse,,33.65146935,-117.8484024
+Office of Technology,Administrative Modular,,33.64188014,-117.8461223
+Office of Technology OIT,Engineering Gateway EG,,33.6431992,-117.8401441
+Office of Information OIT,Multipurpose Science & Technology Building,,33.64203733,-117.8444223
+Painting Studio,Art Studio,,33.65029618,-117.8448649
+Panda Express,Student Center,,33.64865964,-117.8426741
+Parking & Transportation,Public names,,33.64644378,-117.8347884
+Parking Lot 36,Zones 1-6 Parking,,33.645143,-117.828674
+Police,Public names,,33.64644378,-117.8347884
+Purchasing,Public names,,33.64644378,-117.8347884
+Registrar,Aldrich Hall,,33.64831,-117.840723
+Registrar School of Medicine,Medical Sciences E,,33.64539598,-117.8514888
+Reines Hall FRH,Multipurpose Science & Technology Building,,33.64203733,-117.8444223
+Scheduling,Student Center,,33.64865964,-117.8426741
+Social Science Parking Structure,Zone 5 Parking,,33.64750722,-117.8373475
+STA Travel,Student Center,,33.64865964,-117.8426741
+Starbucks,Student Center,,33.64865964,-117.8426741
+Strategic Communications,101 Theory,,33.64371282,-117.8560325
+Student Affairs,Aldrich Hall,,33.64831,-117.840723
+Student Center Parking Structure,Zone 6 Parking,,33.64865964,-117.8426741
+Student Life & Leadership,Student Center,,33.64865964,-117.8426741
+Subway,B.C.'s Cavern on the Green,,33.64590634,-117.8444239
+Subway,Student Center,,33.64865964,-117.8426741
+Teacher Education,Education,,33.6472323,-117.8358727
+Tortilla Fresca,Phoenix Grille,,33.64557154,-117.8405844
+Track and Field House,Track and Field House,,33.64990164,-117.8493636
+UCI Campus Recreation ARC,Anteater Recreation Center,,33.64335538,-117.8279747
+UCI Environmental Institute,Multipurpose Science & Technology Building,,33.64203733,-117.8444223
+UCItems,Student Center,,33.64865964,-117.8426741
+University Advancement,101 Theory,,33.64371282,-117.8560325
+University Club,University Club,,33.64293114,-117.8425046
+University Communications,School of Law,,33.64677029,-117.8359048
+UROP,Student names I,,33.64791816,-117.8423616
+Veteran names,Student Center,,33.64865964,-117.8426741
+Visitor Center,Student Center,,33.64865964,-117.8426741
+Wahoo's Fish Taco,Student Center,,33.64865964,-117.8426741
+Wendy's,Student Center,,33.64865964,-117.8426741
+Zot-n-Go Market,Student Center,,33.64865964,-117.8426741
+Albertsons,UTC,,33.649944,-117.831394
+Aldea (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.653224,-117.844503
+Aldor (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.643956,-117.837531
+Aldrich Park,Aldrich Park,,33.645886,-117.842763
+Alumni Grove,Aldrich Park,,33.644594,-117.842167
+AntTech,Student Center,http://tech.book.uci.edu/,33.648395,-117.842059
+Anteater Ballpark,Anteater Ballpark,,33.651202,-117.847993
+Anteater Recreation Center,Anteater Recreation Center,http://www.campusrec.uci.edu/,33.643489,-117.827969
+Anteater Stadium,Anteater Stadium,,33.650192,-117.850957
+Anteater Statue,Landmarks,,33.649069,-117.845988
+Arroyo (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.651871,-117.845816
+Arroyo Vista,Arroyo Vista,https://www.housing.uci.edu/housingOptions/Arroyo_Vista.html,33.646947,-117.826463
+Arts Bridge,Landmarks,,33.649042,-117.844647
+Asian Box,UTC,,33.648848,-117.832061
+Athletics Bridge,Landmarks,,33.647475,-117.847525
+Au Bon Pain,Paul Merage School of Business,https://uci.campusdish.com/Locations/AuBonPain.aspx,33.646916,-117.837749
+Ayala Science Laboratory,Ayala Library,,33.645865,-117.846197
+BC's Cavern Food Court,Steinhaus Hall,https://uci.campusdish.com/Locations/BCsCavern.aspx,33.645896,-117.844453
+Bahia (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.652253,-117.844963
+Balin (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.645024,-117.837671
+Banning House,Banning House,,33.646171,-117.837033
+Barranca (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.653045,-117.843371
+Blaze Pizza,UTC,,33.649737,-117.839142
+Blood Donor Center,Student Center,http://www.ucirvinehealth.org/locations/irvine/blood-donor-center-campus,33.648617,-117.841917
+Bostick Bridge,Landmarks,,33.645849,-117.848761
+Bren Events Center,Bren Events Center,http://www.ucirvinesports.com/index.aspx?path=bren_center,33.649391,-117.847052
+Bridge Cafe,Continuing Education Building,https://uci.campusdish.com/Locations/BridgeCafe.aspx,33.645069,-117.834918
+Brisa (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.650683,-117.844029
+C3 Express,Social Science Lecture Hall,https://uci.campusdish.com/Locations/C3Express.aspx,33.646984,-117.839663
+Caballo (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.651129,-117.845328
+California Golgi,UTC,,33.650455,-117.838777
+Calmindon (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.644448,-117.837644
+Camino (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.65192,-117.843783
+Camino del Sol,Camino del Sol,http://www.caminodelsolliving.com/student-apartments/ca/irvine/camino-del-sol,33.646947,-117.826463
+Campus Village,Campus Village,https://housing.uci.edu/housingOptions/Campus_Village.html,33.644319,-117.847713
+Cascada (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.652245,-117.843268
+Cha For Tea,UTC,,33.650686,-117.838945
+Chick-fil-A,UTC,,33.649638,-117.839652
+Chipotle,UTC,,33.649576,-117.839306
+Cielo (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.65162,-117.844394
+Ciudad (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.651527,-117.843541
+Continuing Education Bridge,Landmarks,,33.64504,-117.8353
+Courtyard Study Lounge,Student Center,http://www.studentcenter.uci.edu/study-spaces/book-a-study-room-online/,33.64854,-117.841943
+Crawford Hall,Crawford Hall,,33.64793,-117.848138
+Crawford Pool,Crawford Pool,,33.648426,-117.847834
+Crickhollow (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.644653,-117.836318
+Cross Cultural Center,Cross Cultural Center,https://ccc.uci.edu/,33.647904,-117.841801
+Crystal Cove Auditorium,Student Center,,33.649296,-117.842241
+Cuesta (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.651924,-117.844228
+Cumbre (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.650946,-117.843364
+CyberA Cafe,Arts Plaza,http://www.placestoeat.uci.edu/dining.php,33.649808,-117.844692
+Del Sushi,UTC,,33.649871,-117.838843
+E-Sports Arena,Student Center,https://esports.uci.edu/,33.648913,-117.84257
+East Food Court,Student Center,,33.648779,-117.842025
+Edwards University Town Center 6,UTC,,33.650082,-117.83835
+Elrond (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.643777,-117.836774
+Estrella (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.652276,-117.843981
+Eureka,UTC,,33.650614,-117.839262
+Evenstar (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.6443,-117.835861
+Express Yourself Coffee Cart,School of Law and Education,https://uci.campusdish.com/Locations/EspressYourself.aspx,33.649289,-117.842578
+Flagpoles,Landmarks,,33.647879,-117.840967
+Gateway Study Center,Gateway Study Center,http://www.lib.uci.edu/gateway-study-center.html,33.647437,-117.841781
+Global Viewpoint Lounge,Student Center,,33.649066,-117.842339
+Gondolin (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.644447,-117.837198
+Grey Havens (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.644193,-117.837821
+Harrowdale (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.645413,-117.837671
+Hillside Study Lounge,Student Center,,33.648509,-117.841745
+Hobbiton (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.645547,-117.838412
+In-N-Out,UTC,,33.650155,-117.840621
+Infinity Fountain,Landmarks,,33.644645,-117.843579
+Intercollegiate Athletics Building,Intercollegiate Athletics Building,,33.648199,-117.845553
+Irvine Barclay Theatre,Irvine Barclay Theatre,http://www.thebarclay.org/,33.649108,-117.840701
+Isengard (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.644752,-117.838459
+Isla (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.65309,-117.843902
+Jardin (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.65342,-117.843822
+Lago (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.651963,-117.845183
+Laguna (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.653581,-117.844401
+Langson Library,Langson Library,,33.647174,-117.841175
+Le Diplomate Bakery Cafe,UTC,,33.650437,-117.838421
+Lluvia (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.652625,-117.845693
+Loma (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.65167,-117.845434
+Lorien (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.645145,-117.838437
+Luna Grill,UTC,,33.650551,-117.839072
+Mariposa (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.651357,-117.845425
+Mendocino Farms,UTC,,33.650932,-117.839121
+Mesa Court,Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.651758,-117.844038
+Mesa Court Fitness Center,Mesa Court,,33.651137,-117.844816
+Mesa Court Recreation Room,Mesa Court,,33.651147,-117.844789
+Mesa Parking Bridge,Mesa Court,,33.650293,-117.845976
+Microsemi Field,Microsemi Field,,33.649134,-117.850094
+Middle Earth,Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.64479,-117.837787
+Mirkwood (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.644966,-117.838872
+Misty Mountain (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.645341,-117.83803
+Nekter Juice Bar,UTC,,33.650392,-117.838297
+New University,Student Center,https://www.newuniversity.org/,33.648642,-117.842105
+Niebla (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.652526,-117.843831
+Nubes (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.652362,-117.845554
+Oakenshield (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.644282,-117.836312
+Ondas (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.652831,-117.844846
+Organic Greens,UTC,,33.648782,-117.842078
+Otero (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.650567,-117.843444
+Palo (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.652545,-117.844862
+Palo Verde,Palo Verde,https://housing.uci.edu/housingOptions/Palo_Verde.html,33.642455,-117.834426
+Peet's Coffee,UTC,,33.650464,-117.837931
+Phoenix Food Court,Social Science Tower,https://uci.campusdish.com/Locations/PhoenixFoodCourt.aspx,33.645583,-117.84061
+Pippins Commons,Middle Earth,https://uci.campusdish.com/Locations/PippinCommons.aspx,33.644776,-117.83683
+Playa (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.650946,-117.845269
+Prado (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.651058,-117.843917
+Puente (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.650308,-117.843611
+Puerta del Sol,Puerta del Sol,http://www.puertadelsolliving.com/student-apartments/ca/irvine/puerta-del-sol,33.647844,-117.832861
+Quenya (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.643907,-117.83627
+Ray's Pizza,UTC,,33.650613,-117.838282
+Rivendell (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.644493,-117.838063
+Rohan (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.643786,-117.837214
+SchoolsFirst FCU,Student Center,,33.648942,-117.842756
+Selva (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.653496,-117.8449
+Shadowfax (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.644143,-117.836715
+Sierra (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.652124,-117.844593
+Snow Monster,UTC,,33.649801,-117.839011
+Snowbourn (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.644094,-117.837128
+Spoleto,UTC,,33.651042,-117.839028
+Starbucks,Paul Merage School of Business,,33.64687,-117.838425
+Starbucks,Biological Sciences III,,33.645299,-117.845645
+Stax Cookie Bar,UTC,,33.650725,-117.839014
+Student Center Bridge,Landmarks,,33.649533,-117.843343
+Student Center Terrace,Student Center,,33.648708,-117.842394
+Student Center Visitor Center,Student Center,,33.649513,-117.842335
+Study Abroad Center,Student Services II,http://www.studyabroad.uci.edu/,33.648032,-117.842303
+Taco Bell,UTC,,33.650974,-117.840899
+Target,UTC,,33.649635,-117.839189
+Tender Greens,UTC,,33.650346,-117.838105
+Tennis Courts,Tennis Courts,,33.649944,-117.847997
+The Anteatery,Mesa Court,https://uci.campusdish.com/Locations/TheAnteatery.aspx,33.651075,-117.845389
+The Habit Burger Grill,UTC,,33.648769,-117.832048
+The Hill Bookstore,Student Center,http://uci.bncollege.com/,33.648424,-117.842062
+The Shire (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.644926,-117.838009
+Thermal Energy Storage Tank,Landmarks,,33.648394,-117.846163
+Topio's,Student Center,,33.648782,-117.842078
+Trader Joe's,UTC,,33.650409,-117.837554
+UPS Store,Student Center,,33.648942,-117.842756
+UTC Berkeley Court,UTC,,33.648657,-117.836447
+UTC Cornell Court,UTC,,33.648693,-117.834136
+UTC Dartmouth Court,UTC,,33.652355,-117.83846
+UTC Harvard Court,UTC,,33.650171,-117.834613
+UTC Stanford Court,UTC,,33.654145,-117.84054
+University Hills,University Hills,,33.639167,-117.83942
+University Town Center,UTC,,33.64977,-117.839352
+Valimar (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.644604,-117.835808
+Veggie Grill,Veggie Grill,,33.650432,-117.837784
+Verano Place,Verano Place,https://housing.uci.edu/housingOptions/Verano_Place.html,33.64625,-117.832977
+Viento (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.651491,-117.844035
+Vista (Mesa Court),Mesa Court,https://housing.uci.edu/housingOptions/Mesa_Court.html,33.651857,-117.84337
+Vista Field,Vista Field,,33.650783,-117.849227
+Vista del Campo,Vista del Campo,http://www.vistadelcampoliving.com/,33.64625,-117.832977
+Vista del Campo Norte,Vista del Campo Norte,http://www.vistadelcamponorteliving.com/,33.646761,-117.823756
+Watson Bridge,Landmarks,,33.649222,-117.839774
+Wells Fargo Bank,Student Center,,33.648942,-117.842756
+West Food Court,Student Center,,33.649289,-117.842578
+Whispering Wood (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.645283,-117.837263
+Woodhall (Middle Earth),Middle Earth,https://housing.uci.edu/housingOptions/Middle_Earth.html,33.644921,-117.837183
+Yogurtland,UTC,,33.650676,-117.83885
+Yushoken Izakaya & Ramen,UTC,,33.650742,-117.838809
+Zot N Go,Student Center,,33.648414,-117.842711

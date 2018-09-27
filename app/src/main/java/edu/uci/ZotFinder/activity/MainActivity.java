@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity{
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
         Handler handler = new Handler();
-        if (getIntent().getBooleanExtra("SPLASH", true)){
+        if (getIntent().getBooleanExtra("SPLASH", true)) {
             handler.postDelayed(new Runnable() {
                 @Override
                 public void run() {

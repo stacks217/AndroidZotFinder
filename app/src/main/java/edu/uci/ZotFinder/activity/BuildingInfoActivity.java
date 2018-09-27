@@ -126,7 +126,7 @@ public class BuildingInfoActivity extends AppCompatActivity {
         intent.putExtra("SPLASH", false);
 		startActivity(intent);
 	}
-	
+
 
 	private class RetrieveDirectoryResultTask extends AsyncTask<String, Integer,Bitmap> {
 

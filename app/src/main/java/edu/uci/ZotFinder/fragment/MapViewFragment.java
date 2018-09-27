@@ -65,14 +65,15 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
     protected LatLng destinationPoint;
     Polyline polyline = null;
     boolean directionsToggle = false;
-    private static ArrayList<Marker> emergencyAreas = new ArrayList<Marker>();
-    private static ArrayList<Marker> bluePhones = new ArrayList<Marker>();
-    private static ArrayList<Marker> restrooms = new ArrayList<Marker>();
+    private ArrayList<Marker> emergencyAreas = new ArrayList<Marker>();
+    private ArrayList<Marker> bluePhones = new ArrayList<Marker>();
+    private ArrayList<Marker> restrooms = new ArrayList<Marker>();
     //---Booleans to show or hide markers---
-    protected static boolean eaShow=true;
-    protected static boolean bpShow=true;
-    protected static boolean rrShow=true;
+    protected boolean eaShow=true;
+    protected boolean bpShow=true;
+    protected boolean rrShow=true;
     private LatLng lastRequestedFindDirections;
+    private int lastPlottedExtras = 0;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -104,7 +105,7 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
 
                     Bundle extras = getActivity().getIntent().getExtras();
 
-                    if (extras != null && extras.containsKey("type")) {
+                    if (extras != null && extras.containsKey("type") && extras.hashCode() != lastPlottedExtras) {
                         plotPointFromExtras();
                     } else {
                         //Animates the camera to the LatLng coordinate "UCI" which acts as the center
@@ -144,6 +145,7 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
 
     private void plotPointFromExtras() {
         Bundle extras = getActivity().getIntent().getExtras();
+        lastPlottedExtras = extras.hashCode();
 
         if (extras != null && mMap != null) {
             int type = extras.getInt("type");
@@ -359,7 +361,7 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
         String sensor = "sensor=true";
 
         // Building the parameters to the web service
-        String parameters = str_origin+"&"+str_dest+"&"+sensor+"&"+"mode=walking";
+        String parameters = str_origin+"&"+str_dest+"&"+sensor+"&"+"mode=walking"+"&key=AIzaSyAGnXzpHNfvCpRfWm6WYvMETZCsigzRYzY";
 
         // Output format
         String output = "json";
@@ -586,6 +588,7 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
         BufferedReader br = null;
         try {
             br = new BufferedReader(new InputStreamReader(emergencyIS));
+            emergencyAreas.clear();
             while ((line = br.readLine()) != null)
             {
                 String[] input = line.split(",");
@@ -599,10 +602,11 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
         }
         try {
             br = new BufferedReader(new InputStreamReader(bluePhoneIS));
+            bluePhones.clear();
             while ((line = br.readLine()) != null)
             {
                 String[] input = line.split(",");
-                bluePhones.add(mMap.addMarker(new MarkerOptions().position(new LatLng(Float.valueOf(input[4]),Float.valueOf(input[3]))).title(input[2]).icon(BitmapDescriptorFactory.fromResource(R.drawable.blue_phone_icon))));
+                bluePhones.add(mMap.addMarker(new MarkerOptions().position(new LatLng(Float.valueOf(input[2]),Float.valueOf(input[3]))).title(input[1]).icon(BitmapDescriptorFactory.fromResource(R.drawable.blue_phone_icon))));
             }
             bluePhoneIS.close();
         } catch (FileNotFoundException e) {
@@ -612,6 +616,7 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
         }
         try {
             br = new BufferedReader(new InputStreamReader(restroomIS));
+            restrooms.clear();
             while ((line = br.readLine()) != null)
             {
                 String[] input = line.split(",");
@@ -722,6 +727,15 @@ public class MapViewFragment extends Fragment implements GoogleMap.OnMarkerClick
             });
             builder.show();
             return result;
+        }
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        final Bundle extras = getActivity().getIntent().getExtras();
+        if (extras != null && extras.containsKey("type") && extras.hashCode() != lastPlottedExtras) {
+            plotPointFromExtras();
         }
     }
 }
